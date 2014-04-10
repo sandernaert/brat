@@ -1,0 +1,338 @@
+from projectconfig import TypeHierarchyNode, ProjectConfiguration
+from annotation import Annotations,TextLevelAnnotation, SimpleAnnotations
+from message import Messager
+from ApplicationScope import getAnnObject
+
+class NoTextLevelConf(Exception):
+    def __init__(self):
+		Exception.__init__(self)
+    def __str__(self):
+        return u'No text level annotations defined in configuration'
+        
+class noValidAnswer(Exception):
+    def __init__(self,answer):
+		Exception.__init__(self)
+		self.answer = answer
+    def __str__(self):
+        return u'%s was not a valid answer'%(self.answer)
+        
+class TextAnnotations(object):
+	def __init__(self,projectconf, ann=""):
+		self.projectconf = projectconf
+		self.lists = {}
+		self.defs = {}
+		self.startlists = {}
+		self.selectedList = None
+		#ann is not the entire Annotations object but only a list of textLevel annotations
+		self.ann = ann
+		text_types = []
+		try:
+			text_types = self.projectconf.get_text_type_hierarchy()
+		except KeyError:
+			raise NoTextLevelConf()
+		for i in text_types:
+			if i.terms[0] == "Def":
+				answer = Answer(i.arguments["id"][0], i.arguments["text"][0])
+				self.defs[answer.id] = answer 
+			if i.terms[0] == "List":
+				answers = []
+				for answer in i.arguments["defs"]:
+					answers.append(self.defs[answer])
+				lst = AnswerList(i.arguments["id"][0], i.arguments["name"][0],answers,i.arguments["next"])
+				self.lists[lst.id] = lst;
+				self.startlists[lst.id] =StartList(self.defs,self.lists,lst)
+			if i.terms[0] == "SubList":
+				answers = []
+				for answer in i.arguments["defs"]:
+					answers.append(self.defs[answer])
+				lst = AnswerList(i.arguments["id"][0], i.arguments["name"][0],answers,i.arguments["next"],True)
+				self.lists[lst.id] = lst
+		for annotation in self.ann:
+			#TODO:Correct error if type is not found
+			for i in self.startlists:
+				if self.startlists[i].start.name == annotation.type:
+					self.startlists[i].set_ann(annotation)
+					break
+	
+	def set_ann(self, annotations):
+		self.ann = annotations
+		for annotation in self.ann:
+			#TODO:Correct error if type is not found
+			for i in self.startlists:
+				if self.startlists[i].start.name == annotation.type:
+					self.startlists[i].set_ann(annotation)
+					break
+					
+	def select(self,_id,start_list=None):
+		if not self.selectedList and not start_list:
+			self.selectedList = self.startlists[_id]
+			return self.startlists[_id].currentList
+		if start_list:
+			self.selectedList = self.startlists[start_list]
+		return self.selectedList.select(_id)
+	
+	def unselect(self,start_list):
+		if start_list:
+			self.selectedList = self.startlists[start_list]
+			if self.selectedList.followed_path:
+				return self.selectedList.unselect()
+			else:
+				return None
+	
+		
+		
+
+class StartList(object):
+    def __init__(self,defs,lists,currentList, ann=""):
+        self.defs = defs
+        self.lists = lists
+        self.start = currentList
+        self.currentList = currentList
+        self.followed_path = []	
+        self.ann = ann	
+    
+    def set_ann(self, annotation):
+        self.ann = annotation
+        if self.ann:
+            for id_ in self.ann.ids:
+                self.select(id_)
+        
+    def select(self,_id):
+        index = 0
+        if not self.currentList == "stop":
+            for a in self.currentList.answers:
+                if(a.id == _id):
+                    break
+                index+=1
+            try:
+                next_step = self.currentList.select(index)
+            except:
+                raise noValidAnswer(_id)
+            self.followed_path.append(self.currentList.answers[index])
+            if(not next_step == "stop"):
+                #~ try:			
+                self.currentList = self.lists[next_step]
+                #~ except:
+                    #~ raise noValidAnswer(next_step)
+            else:
+                self.currentList = "stop"
+        return self.currentList
+    
+    def unselect(self):
+        self.followed_path = []
+        self.currentList = self.start
+        if self.ann and len(self.ann.ids) >= 1:
+            for id_ in self.ann.ids[:-1]:
+                self.select(id_)		
+        return self.currentList
+	
+        
+
+class AnswerList(object):
+	#Has an id to identify the object and a name. 
+	#Keeps a list of possible answers, and for every answer there is an value that gives says what the next_step is
+	#this can be the id of an other (sub)list or can be "stop"
+	def __init__(self,id, name,answers,next_steps, sublist=False):
+		self.name = name
+		self.id = id
+		self.answers = answers
+		self.nexts = next_steps
+		self.sublist = sublist
+		
+	def select(self,index):
+		return self.nexts[index]
+	def __str__(self):
+		return u'%s\t%s' % (self.id,self.name)
+      
+
+class Answer(object):
+	def __init__(self,id, text):
+		self.id = id
+		self.text = text
+	def __str__(self):
+		return u'%s\t%s' % (self.id,self.text)
+		
+def get_list(path,doc):
+	try:
+		from os.path import join as path_join
+		from document import real_directory
+		real_dir = real_directory(path)
+	except:
+		real_dir=path
+	ann =getAnnObject(path,doc)
+	proj = ProjectConfiguration(real_dir)
+	try:
+		txt_lvl = TextAnnotations(proj,ann.get_textLevels())
+	except NoTextLevelConf as e:
+		return {'exception' :str(e) }
+	if txt_lvl.currentList == "stop":
+		return {'stop':True, 'annotation':str(txt_lvl.selectedList.ann),}
+	response = list_to_dict(txt_lvl.currentList)
+	#Back_pos tells if there is still atleast 1 answer left that can be removed
+	response["back_pos"] = False
+	if len(txt_lvl.followed_path) >0 :
+		response["back_pos"] = True
+	return response
+	
+def get_startlist(path,doc):
+	try:
+		from os.path import join as path_join
+		from document import real_directory
+		real_dir = real_directory(path)
+	except:
+		real_dir=path
+	ann =getAnnObject(path,doc)
+	proj = ProjectConfiguration(real_dir)
+	try:
+		txt_lvl = TextAnnotations(proj,ann.get_textLevels())
+	except NoTextLevelConf as e:
+		return {'exception' :str(e) }
+	response = startlist_to_dict(txt_lvl.startlists)
+	#Back_pos tells if there is still atleast 1 answer left that can be removed
+	response["back_pos"] = False
+	return response
+	
+def select(path,doc,_id,start_list=None):
+	try:
+		from os.path import join as path_join
+		from document import real_directory
+		real_dir = real_directory(path)
+	except:
+		real_dir=path
+	proj = ProjectConfiguration(real_dir)
+	txt_lvl = TextAnnotations(proj)
+	if start_list:
+		answerlist = txt_lvl.startlists[start_list].start
+		with getAnnObject(path, doc) as ann:
+			ann_txtLvl = ann.get_textLevels()
+			annotation = None
+			for i in ann_txtLvl:
+				if i.type == answerlist.name:
+					annotation = i
+			if not annotation:
+				ann_id = ann.get_new_id('F')
+				ann.add_annotation(TextLevelAnnotation(ann_id, answerlist.name,[]))
+				annotation = ann.get_ann_by_id(ann_id)
+				ann_txtLvl = ann.get_textLevels()
+			txt_lvl.set_ann(ann_txtLvl)
+			response = txt_lvl.select(_id,start_list)
+			update_annotations(ann,annotation, txt_lvl.startlists[start_list])
+	else:
+		ann = getAnnObject(path,doc)
+		ann_txtLvl = ann.get_textLevels()
+		if ann_txtLvl:
+			txt_lvl.set_ann(ann_txtLvl)
+		response = txt_lvl.select(_id,start_list)
+		
+	if response == "stop":
+		return {'stop':True , 'annotation':str(txt_lvl.selectedList.ann),}
+	return list_to_dict(response)
+
+def unselect(path,doc,start_list=None):
+	try:
+		from os.path import join as path_join
+		from document import real_directory
+		real_dir = real_directory(path)
+	except:
+		real_dir=path
+	from message import Messager
+	with getAnnObject(path, doc) as ann:
+		proj = ProjectConfiguration(real_dir)
+		ann_txtLvl = ann.get_textLevels()
+		if not ann_txtLvl:
+			return get_startlist(path,doc)
+		txt_lvl = TextAnnotations(proj,ann_txtLvl)
+		response_list = txt_lvl.unselect(start_list)
+		answerlist = txt_lvl.startlists[start_list].start
+		for i in ann_txtLvl:
+				if i.type == answerlist.name:
+					update_annotations(ann,i, txt_lvl.startlists[start_list])
+					break
+		if response_list:
+			response = list_to_dict(response_list)
+			response["back_pos"] = True
+		else:
+			response = get_startlist(path,doc)
+		return response
+
+def input_text(path,doc,_id,text,start_list):
+	try:
+		from os.path import join as path_join
+		from document import real_directory
+		real_dir = real_directory(path)
+	except:
+		real_dir=path
+	proj = ProjectConfiguration(real_dir)
+	txt_lvl = TextAnnotations(proj)
+	answerlist = txt_lvl.startlists[start_list].start
+	with getAnnObject(path, doc) as ann:
+		ann_txtLvl = ann.get_textLevels()
+		annotation = None
+		for i in ann_txtLvl:
+			if i.type == answerlist.name:
+				annotation = i
+		if annotation:
+			txt_lvl.set_ann(ann_txtLvl)
+		else:
+			ann_id = ann.get_new_id('F')
+			ann.add_annotation(TextLevelAnnotation(ann_id, answerlist.name,[]))
+			annotation = ann.get_ann_by_id(ann_id)
+			ann_txtLvl = ann.get_textLevels()
+		if annotation.tail:
+			annotation.tail += ";"
+		annotation.tail += text
+		annotation.ids.append(_id)
+	return {'stop':True, 'annotation':str(annotation),}
+
+
+def update_annotations(ann,ann_txtLvl, txt_lvl):
+	#update annotation for file
+	if len(txt_lvl.followed_path) == 0:
+		ann.del_annotation(ann_txtLvl)
+		return 0
+	ann_txtLvl.tail = ""
+	ann_txtLvl.ids = []
+	for i in txt_lvl.followed_path:
+		ann_txtLvl.tail += i.text+ ";"
+		ann_txtLvl.ids.append(i.id)
+	#remove extra ";" at end
+	if ann_txtLvl.tail:
+		ann_txtLvl.tail=ann_txtLvl.tail[:-1]
+
+def list_to_dict(answer_list):	
+    response = {'name':answer_list.name, 'id':answer_list.id, 'nexts':answer_list.nexts, 'sublist':answer_list.sublist, 'stop':False,}
+    response['answer_ids'] = [ a.id for a in answer_list.answers ]
+    response['answer_texts'] = [ a.text for a in answer_list.answers ]
+    return response
+	
+def startlist_to_dict(answer_list):	
+	response = {'name':'', 'id':'', 'sublist':False, 'stop':False,}
+	#a is the id
+	response['answer_ids'] = [ a for a in answer_list ]
+	response['answer_texts'] = [ answer_list[a].start.name for a in answer_list ]
+	return response
+		
+if __name__ == "__main__":
+    proj = ProjectConfiguration("/home/hast/Downloads/brat/data/brat_vb/sentiment")
+    #~ proj.get_text_type_hierarchy()
+    #~ textann = TextAnnotations(proj)
+    #~ print "STARTLISTS"
+    #~ print "###################"
+    #~ print
+    #~ print "LISTS"
+    #~ print textann.lists
+    #~ print "###################"
+    #~ print
+    #~ print "DEFS"
+    #~ print textann.defs
+    #~ print "###################"
+    #~ print "#####SELECT########"
+    #~ print textann.select('0.2','0')
+    #detijd_other_Bekaert_12-05-05
+    #~ import cProfile
+    #~ cProfile.run('get_startlist("/brat_vb/sentiment/","sporza")')
+    print get_startlist("/brat_vb/sentiment","sporza")
+	#~ print select('/brat_vb/sentiment/','sporza','0')
+	#~ #print "#####UNSELECT#######"
+	#~ print unselect('/brat_vb/sentiment/','sporza','0')
+	#~ print select('/brat_vb/sentiment/','sporza','0.1','0')

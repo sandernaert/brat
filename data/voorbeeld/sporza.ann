@@ -1,0 +1,54 @@
+T1	Entity 3 7	denk
+T2	PolarExpr 12 22	Anderlecht
+A1	Type T2 1
+A2	ConfidenceType T2 med
+R1	has_low_pos_target Arg1:T2 Arg2:T1	
+A3	Author_is_source T2
+T4	PolarExpr 163 171	Standard
+A5	Type T4 causal
+A6	ConfidenceType T4 high
+T5	SourceExpr 180 190	vertrouwen
+T3	Entity 152 156	zege
+R3	has_source_expr Arg1:T4 Arg2:T5	
+T6	CauseExpr 198 206	gekweekt
+R4	has_cause Arg1:T4 Arg2:T1	
+T7	Entity 207 211	voor
+R5	has_effect Arg1:T6 Arg2:T7	
+A7	Impersonal_source T4
+R2	has_medium_neg_target Arg1:T4 Arg2:T3	
+T8	Target 267 276	verdiende
+E1	Target:T8 Target2:T9 Expression2:T10
+T9	Entity 288 290	al
+T10	PolarExpr 291 297	speelt
+T11	Target 318 322	zijn
+E2	Target:T11 Expression:T10 Target:T9
+R6	has_source Arg1:T5 Arg2:T7	
+R7	has_low_pos_target Arg1:T10 Arg2:T9	
+A4	Type T10 1
+A8	ConfidenceType T10 med
+A9	Author_is_source T10
+T14	Entity 447 456	misschien
+T12	SourceExpr 416 423	barstje
+R10	has_source Arg1:T12 Arg2:T15	
+T15	Entity 410 415	Klein
+T16	Entity 130 139;140 147	Sporza .  " En me
+T18	Entity 329 335;345 347	voetba er
+T22	SourceExpr 573 578	weken
+T23	PolarExpr 500 504	zijn
+A14	Type T23 2
+A15	ConfidenceType T23 med
+R15	has_source_expr Arg1:T23 Arg2:T22	
+T21	PolarExpr 392 403	mentaliteit
+T24	Modifier 364 366	op
+F1	relevantie 0.1	Deze tekst gaan niet over zelfdoding
+A16	Type T21 2
+A17	ConfidenceType T21 med
+R16	has_low_neg_target Arg1:T21 Arg2:T18	
+A18	Author_is_source T21
+T13	PolarExpr 430 442	feestvreugde
+A10	Type T13 3
+A11	ConfidenceType T13 high
+R8	has_low_pos_target Arg1:T13 Arg2:T14	
+R9	has_source_expr Arg1:T13 Arg2:T12	
+F2	mening input	test
+T17	PolarExpr 630 639	Jovanovic

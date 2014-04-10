@@ -1,0 +1,721 @@
+T1	Entity 10 17	BEKAERT 
+T2	PolarExpr 22 33	VOORZICHTIG OVER 
+T3	Entity 32 36	2005 
+T4	Entity 42 59	TWEEDE HALFJAAR 
+T5	PolarExpr 62 72	MOEILIJKER DAN 
+T6	Entity 72 81	VORIG JAAR 
+T7	PolarExpr 102 111	Belgische 
+T8	Entity 102 156	Belgische staalkoord- en staaldraadproducent Bekaert 
+T9	Modifier 153 157	heel 
+T10	PolarExpr 148 203	is heel voorzichtig met zijn vooruitzichten voor 
+T11	Entity 198 212	het jaar 2005 
+T12	Entity 215 239	Het eerste kwartaal 
+T13	Modifier 237 242	begon 
+T14	PolarExpr 237 246	begon goed 
+T15	Entity 250 289	de marktomstandigheden 
+T16	PolarExpr 275 296	zijn moeilijker 
+T17	Entity 292 343	de evolutie van de grondstoffenmarkt 
+T18	PolarExpr 329 352	is onduidelijk 
+T19	Entity 348 377	Het tweede halfjaar van 2005 
+T20	Modifier 379 384	wordt 
+T21	PolarExpr 379 400	wordt moeilijker dan 
+T22	Entity 398 427	het tweede halfjaar van 2004 
+T23	Entity 435 442	Bekaert 
+T24	Modifier 442 448	boekte 
+T25	Modifier 448 457	vorig jaar 
+T26	Modifier 473 494	van 168 miljoen euro 
+T27	PolarExpr 442 555	boekte vorig jaar een recordwinst van 168 miljoen euro , een verdubbeling in vergelijking met het jaar voordien 
+T28	Modifier 496 555	een verdubbeling in vergelijking met het jaar voordien 
+T29	PolarExpr 583 593	historisch 
+T30	Entity 554 602	Een evenaring van dit historisch resultaat 
+T31	Entity 593 602	resultaat 
+T32	Modifier 599 604	wordt 
+T33	Modifier 604 608	geen 
+T34	PolarExpr 599 632	wordt geen makkelijke opdracht 
+T35	Entity 635 642	Bekaert 
+T36	Modifier 644 653	onder meer 
+T37	PolarExpr 638 728	is onder meer een van de belangrijkste leveranciers van staalkoord voor autobanden 
+T38	Entity 728 761	Het eerste kwartaal van dit jaar 
+T39	Modifier 765 772	startte 
+T40	PolarExpr 765 774	startte goed 
+T41	SourceExpr 778 781	zei 
+T42	Entity 781 827	de gedelegeerd bestuurder , Julien De Wilde 
+T43	PolarExpr 862 896	in zijn voorspellingen voor 
+T44	Entity 890 912	de rest van het jaar 
+T45	PolarExpr 912 915	was 
+T46	Entity 916 919	hij 
+T47	PolarExpr 928 939	voorzichtig 
+T48	PolarExpr 974 985	moeilijkere 
+T49	Entity 994 1013	marktomstandigheden 
+T50	Modifier 1000 1035	In het eerste kwartaal vorig jaar 
+T51	PolarExpr 1000 1044	In het eerste kwartaal vorig jaar wilden 
+T52	Modifier 1038 1044	wilden 
+T53	Entity 1043 1058	onze klanten 
+T54	Entity 1058 1086	zoveel mogelijk bestellen 
+T55	Entity 1113 1115	ze 
+T56	SourceExpr 1120 1127	denken dat 
+T57	Entity 1127 1142	de prijzen 
+T58	PolarExpr 1142 1153	zullen dalen 
+T59	Modifier 1142 1153	zullen dalen 
+T60	PolarExpr 1155 1158	Ook 
+T61	Entity 1158 1193	de grondstoffenmarkt 
+T62	PolarExpr 1179 1205	is anders dan vorig jaar 
+T63	Entity 1207 1216	In Azie 
+T64	PolarExpr 1220 1227	stijgen 
+T65	Entity 1223 1256	de prijzen van staaldraad 
+T66	Entity 1251 1259	in de VS 
+T67	PolarExpr 1263 1268	dalen 
+T68	Entity 1266 1268	ze 
+T69	Entity 1272 1283	De prijs 
+T70	Entity 1272 1331	De prijs van lagekwaliteitsstaaldraad 
+T71	PolarExpr 1313 1318	daalt 
+T72	Entity 1319 1322	die 
+T73	Entity 1319 1372	die van hogekwaliteitsstaaldraad 
+T74	PolarExpr 1355 1361	stijgt 
+T75	Modifier 1368 1374	moeten 
+T76	PolarExpr 1361 1386	We moeten dus zorgen dat 
+T77	Entity 1386 1410	we dat goed managen 
+T78	PolarExpr 1410 1413	Ook 
+T79	Entity 1413 1442	de wereldeconomie 
+T80	PolarExpr 1431 1458	is zwakker dan vorig jaar 
+T81	Entity 1460 1489	de concurrentie in Europa 
+T82	PolarExpr 1489 1508	wordt beinvloed door 
+T83	PolarExpr 1512 1516	lage 
+T84	Entity 1507 1525	de lage dollar 
+T85	Entity 1519 1525	dollar 
+T86	Modifier 1529 1535	Vooral 
+T87	PolarExpr 1529 1538	Vooral voor 
+T88	Entity 1544 1553	producten 
+T89	Entity 1548 1551	die 
+T90	Entity 1544 1582	producten die makkelijk te produceren zijn 
+T91	PolarExpr 1558 1582	makkelijk te produceren zijn 
+T92	PolarExpr 1582 1610	is de concurrentie groot 
+T93	Entity 1614 1625	De Wilde 
+T94	SourceExpr 1622 1623	: 
+T95	PolarExpr 1633 1668	Betekent dit dat the party over is voor 
+T96	Entity 1672 1679	Bekaert 
+T97	Modifier 1674 1675	? 
+T98	Modifier 1678 1694	In geen geval 
+T99	Entity 1735 1737	We 
+T100	Modifier 1749 1754	sterk 
+T101	PolarExpr 1743 1783	groeien sterk in Latijns-Amerika 
+T102	Modifier 1752 1783	in Latijns-Amerika 
+T103	Modifier 1774 1785	in China 
+T104	Modifier 1784 1787	was 
+T105	Modifier 1790 1818	in het eerste kwartaal 
+T106	Modifier 1818 1825	opnieuw 
+T107	PolarExpr 1774 1839	in China was er in het eerste kwartaal opnieuw een stijging van 
+T108	Entity 1838 1871	de verkoop van staalkoord 
+T109	PolarExpr 1885 1891	zwakke 
+T110	PolarExpr 1864 1900	na negen maanden zwakke periode 
+T111	Modifier 1864 1900	na negen maanden zwakke periode 
+T112	Entity 1893 1900	periode 
+T113	PolarExpr 1899 1914	De vraag naar 
+T114	Entity 1930 1949	staalkoordproducten 
+T115	PolarExpr 1937 1948	blijft groot 
+T116	Entity 1949 1976	In Noord-Amerika 
+T117	PolarExpr 1969 1974	staan 
+T118	Entity 1972 1987	de markten 
+T119	PolarExpr 1984 1999	wel onder druk 
+T120	Modifier 2023 2033	onmogelijk 
+T121	PolarExpr 2001 2044	We kunnen ook onmogelijk inschatten hoe 
+T122	Entity 2041 2080	de grondstoffenprijzen 
+T123	PolarExpr 2066 2085	gaan evolueren 
+T124	Modifier 2066 2085	gaan evolueren 
+T125	Modifier 2132 2141	Vorig jaar 
+T126	PolarExpr 2132 2144	Vorig jaar was 
+T127	Modifier 2141 2144	was 
+T128	Entity 2145 2148	het 
+T129	PolarExpr 2155 2164	duidelijk 
+T130	Entity 2163 2168	alles 
+T131	Entity 2163 2174	alles steeg 
+T132	PolarExpr 2169 2174	steeg 
+T133	Modifier 2169 2174	steeg 
+T134	Entity 2176 2200	Het tweede halfjaar 
+T135	Modifier 2198 2203	wordt 
+T136	PolarExpr 2198 2219	wordt moeilijker dan 
+T137	Entity 2217 2248	het tweede halfjaar vorig jaar 
+T138	SourceExpr 2250 2267	Nu al zeggen dat 
+T139	Entity 2269 2273	2005 
+T140	PolarExpr 2275 2288	beter wordt dan 
+T141	Entity 2250 2294	Nu al zeggen dat 2005 beter wordt dan 2004 
+T142	Entity 2290 2294	2004 
+T143	PolarExpr 2296 2309	zou dom zijn 
+T144	Modifier 2349 2353	geen 
+T145	PolarExpr 2339 2364	Er zijn geen tekenen dat 
+T146	Entity 2364 2407	de situatie in Latijns-Amerika of China 
+T147	PolarExpr 2405 2426	zal veranderen 
+T148	Modifier 2405 2426	zal veranderen 
+T149	Entity 2441 2448	Bekaert 
+T150	Modifier 2451 2464	nog altijd 
+T151	PolarExpr 2447 2467	zoekt nog altijd naar 
+T152	PolarExpr 2475 2486	versterking van 
+T153	Entity 2475 2510	versterking van zijn positie in Rusland 
+T154	Entity 2484 2510	zijn positie in Rusland 
+T155	Entity 2495 2510	in Rusland 
+T156	Entity 2511 2522	De Wilde 
+T157	SourceExpr 2519 2520	: 
+T158	PolarExpr 2524 2537	We willen 
+T159	Entity 2534 2536	er 
+T160	Entity 2534 2597	er onze aanwezigheid in staalkoord en staaldraad verhogen 
+T161	Entity 2670 2717	Als we er op middellange termijn aanwezig zijn 
+T162	PolarExpr 2718 2720	is 
+T163	Entity 2722 2725	het 
+T164	PolarExpr 2727 2731	goed 
+T165	Entity 2817 2824	Bekaert 
+T166	Modifier 2824 2830	boekte 
+T167	Modifier 2827 2855	in het eerste kwartaal 
+T168	Entity 2851 2898	een geconsolideerde omzet van 462 miljoen euro 
+T169	Modifier 2877 2898	van 462 miljoen euro 
+T170	Modifier 2913 2933	van 17,7 procent 
+T171	PolarExpr 2824 2961	boekte in het eerste kwartaal een geconsolideerde omzet van 462 miljoen euro , een stijging van 17,7 procent in vergelijking met vorig jaar 
+T172	PolarExpr 2900 2961	een stijging van 17,7 procent in vergelijking met vorig jaar 
+T173	Modifier 2929 2961	in vergelijking met vorig jaar 
+T174	Entity 3095 3132	De verkoop van staalkoord in China 
+T175	Modifier 3133 3138	steeg 
+T176	PolarExpr 3133 3154	steeg met 1 procent 
+T177	Modifier 3137 3154	met 1 procent 
+T178	Modifier 3179 3182	was 
+T179	PolarExpr 3159 3203	aan dezelfde dollar was er een stijging van 
+T180	Entity 3202 3213	de omzet 
+T181	PolarExpr 3212 3230	met 10 procent 
+T182	Modifier 3212 3230	met 10 procent 
+T183	Entity 3229 3317	De gezamenlijke omzet ( inclusief joint ventures en minderheidsbelangen ) 
+T184	Modifier 3306 3311	steeg 
+T185	Modifier 3310 3328	met 20 procent 
+T186	PolarExpr 3306 3346	steeg met 20 procent tot 733 miljoen euro 
+T187	Modifier 3325 3346	tot 733 miljoen euro 
+T188	Entity 3352 3358	Europa 
+T189	Modifier 3356 3359	was 
+T190	Modifier 3370 3387	262 miljoen euro 
+T191	Modifier 3390 3394	+21% 
+T192	PolarExpr 3356 3394	was goed voor 262 miljoen euro ( +21% ) 
+T193	Entity 3410 3425	Latijns-Amerika 
+T194	Modifier 3419 3436	241 miljoen euro 
+T195	Modifier 3439 3443	+25% 
+T196	PolarExpr 3415 3443	voor 241 miljoen euro ( +25% ) 
+T197	Entity 3447 3456	In Azie 
+T198	Modifier 3459 3465	boekte 
+T199	Entity 3467 3474	Bekaert 
+T200	PolarExpr 3459 3497	boekte Bekaert een omzet 56 miljoen euro 
+T201	Modifier 3480 3497	56 miljoen euro 
+T202	PolarExpr 3501 3505	Over 
+T203	Entity 3504 3549	de rendabiliteit in het eerste kwartaal 
+T204	SourceExpr 3545 3548	wou 
+T205	Entity 3548 3559	De Wilde 
+T206	PolarExpr 3560 3565	niets 
+T207	SourceExpr 3566 3571	kwijt 
+T208	Entity 3575 3617	Paul Buysse , de voorzitter van Bekaert 
+T209	SourceExpr 3616 3633	zei gisteren dat 
+T210	Entity 3637 3644	Bekaert 
+T211	PolarExpr 3637 3715	Bekaert met Euronext Brussel blijft onderhandelen om een oplossing te vinden voor 
+T212	Entity 3714 3757	de verwijdering van Bekaert uit de Bel20 
+T213	Entity 3764 3779	Euronext Brussel 
+T214	Modifier 3781 3789	schrapte 
+T215	PolarExpr 3781 3801	schrapte eind vorig jaar 
+T216	Modifier 3786 3801	eind vorig jaar 
+T217	Entity 3802 3819	vijf aandelen 
+T218	PolarExpr 3815 3829	uit de Bel20 
+T219	Entity 3834 3857	hun beurswaarde 
+T220	Modifier 3849 3851	te 
+T221	Entity 3764 3862	Euronext Brussel schrapte eind vorig jaar vijf aandelen uit de Bel20 omdat hun beurswaarde te klein was 
+T222	PolarExpr 3849 3862	te klein was 
+T223	Modifier 3859 3862	was 
+T224	Entity 3870 3877	Bekaert 
+T225	Entity 3876 3879	dat 
+T226	PolarExpr 3880 3883	met 
+T227	Entity 3885 3910	zijn Bel20-status 
+T228	PolarExpr 3906 3950	uitpakt bij buitenlandse investeerders 
+T229	Modifier 3910 3950	bij buitenlandse investeerders 
+T230	PolarExpr 3945 3950	pikte 
+T231	Modifier 3945 3950	pikte 
+T232	Entity 3949 3952	dat 
+T233	PolarExpr 3954 3958	niet 
+T234	Modifier 3954 3958	niet 
+T235	Entity 3997 4016	de bedrijven 
+T236	Entity 4037 4060	hun beurswaarde 
+T237	PolarExpr 4052 4069	te verhogen 
+T238	Entity 4078 4080	We 
+T239	PolarExpr 4107 4114	hopen dat 
+T240	Entity 4115 4150	het gezond verstand zegeviert 
+T241	Entity 4147 4149	We 
+T242	SourceExpr 4152 4170	gaan er van uit dat 
+T243	PolarExpr 4170 4177	we tot 
+T244	Entity 4178 4197	een oplossing 
+T245	PolarExpr 4194 4199	komen 
+T246	Entity 4204 4235	Het Bekaert-aandeel 
+T247	Modifier 4227 4233	daalde 
+T248	Modifier 4236 4244	gisteren 
+T249	Modifier 4240 4259	met 0,8 procent 
+T250	PolarExpr 4227 4268	daalde gisteren met 0,8 procent tot 58 euro 
+T251	Modifier 4256 4268	tot 58 euro 
+T252	Entity 87 90	arc 
+R1	has_source ARG1:T2 ARG2:T1
+R2	has_medium_other_target ARG1:T2 ARG2:T3
+R3	has_low_pos_target ARG1:T5 ARG2:T6
+R4	has_low_neg_target ARG1:T5 ARG2:T4
+R5	modifies ARG1:T9 ARG2:T10
+R6	has_high_other_target ARG1:T10 ARG2:T11
+R7	has_source ARG1:T10 ARG2:T8
+R8	modifies ARG1:T13 ARG2:T14
+R9	has_medium_pos_target ARG1:T14 ARG2:T12
+R10	has_low_neg_target ARG1:T16 ARG2:T15
+R11	has_low_neg_target ARG1:T18 ARG2:T17
+R12	modifies ARG1:T20 ARG2:T21
+R13	has_low_pos_target ARG1:T21 ARG2:T22
+R14	has_low_neg_target ARG1:T21 ARG2:T19
+R15	modifies ARG1:T24 ARG2:T27
+R16	modifies ARG1:T25 ARG2:T27
+R17	modifies ARG1:T26 ARG2:T27
+R18	has_high_pos_target ARG1:T27 ARG2:T23
+R19	modifies ARG1:T28 ARG2:T27
+R20	has_high_pos_target ARG1:T29 ARG2:T31
+R21	modifies ARG1:T32 ARG2:T34
+R22	modifies ARG1:T33 ARG2:T34
+R23	has_medium_neg_target ARG1:T34 ARG2:T30
+R24	modifies ARG1:T36 ARG2:T37
+R25	has_high_pos_target ARG1:T37 ARG2:T35
+R26	modifies ARG1:T39 ARG2:T40
+R27	has_medium_pos_target ARG1:T40 ARG2:T38
+R28	has_source_expr ARG1:T40 ARG2:T41
+R29	has_source ARG1:T41 ARG2:T42
+R30	has_source ARG1:T45 ARG2:T46
+R31	has_low_neg_target ARG1:T45 ARG2:T44
+R32	refers_to ARG1:T46 ARG2:T42
+*	in_span_with T43 T45 T47
+R33	has_source ARG1:T48 ARG2:T42
+R34	has_medium_neg_target ARG1:T48 ARG2:T49
+R35	modifies ARG1:T50 ARG2:T51
+R36	has_source ARG1:T51 ARG2:T53
+R37	has_medium_pos_target ARG1:T51 ARG2:T54
+R38	modifies ARG1:T52 ARG2:T51
+R39	refers_to ARG1:T55 ARG2:T53
+R40	has_source ARG1:T56 ARG2:T55
+R41	has_source_expr ARG1:T58 ARG2:T56
+R42	has_medium_neg_target ARG1:T58 ARG2:T57
+R43	modifies ARG1:T59 ARG2:T58
+R44	has_low_neg_target ARG1:T62 ARG2:T61
+*	in_span_with T60 T62
+R45	has_low_neg_target ARG1:T64 ARG2:T65
+R46	has_low_pos_target ARG1:T67 ARG2:T68
+R47	refers_to ARG1:T68 ARG2:T65
+*	in_span_with T63 T65
+*	in_span_with T68 T66
+R48	has_low_pos_target ARG1:T71 ARG2:T70
+R49	refers_to ARG1:T72 ARG2:T69
+R50	has_low_neg_target ARG1:T74 ARG2:T73
+R51	modifies ARG1:T75 ARG2:T76
+R52	has_medium_other_target ARG1:T76 ARG2:T77
+R53	has_medium_neg_target ARG1:T80 ARG2:T79
+R54	has_cause ARG1:T82 ARG2:T84
+R55	has_low_neg_target ARG1:T82 ARG2:T81
+R56	has_medium_neg_target ARG1:T83 ARG2:T85
+*	in_span_with T78 T80
+R57	modifies ARG1:T86 ARG2:T92
+R58	refers_to ARG1:T89 ARG2:T88
+R59	has_medium_pos_target ARG1:T91 ARG2:T89
+*	in_span_with T87 T92
+R60	has_source ARG1:T94 ARG2:T93
+R61	has_low_neg_target ARG1:T95 ARG2:T96
+R62	has_source_expr ARG1:T95 ARG2:T94
+R63	modifies ARG1:T97 ARG2:T95
+R64	modifies ARG1:T98 ARG2:T95
+R65	refers_to ARG1:T99 ARG2:T96
+R66	modifies ARG1:T100 ARG2:T101
+R67	has_high_pos_target ARG1:T101 ARG2:T99
+R68	has_source_expr ARG1:T101 ARG2:T94
+R69	modifies ARG1:T102 ARG2:T101
+R70	modifies ARG1:T103 ARG2:T107
+R71	modifies ARG1:T104 ARG2:T107
+R72	modifies ARG1:T105 ARG2:T107
+R73	modifies ARG1:T106 ARG2:T107
+R74	has_medium_pos_target ARG1:T107 ARG2:T108
+R75	has_source_expr ARG1:T107 ARG2:T94
+R76	feature_of ARG1:T108 ARG2:T99
+R77	has_medium_neg_target ARG1:T109 ARG2:T112
+R78	has_source_expr ARG1:T109 ARG2:T94
+R79	modifies ARG1:T111 ARG2:T107
+*	in_span_with T110 T107
+R80	has_high_pos_target ARG1:T113 ARG2:T114
+R81	has_source_expr ARG1:T113 ARG2:T94
+*	in_span_with T115 T113
+R82	has_medium_neg_target ARG1:T117 ARG2:T118
+R83	has_source_expr ARG1:T117 ARG2:T94
+*	in_span_with T118 T116
+*	in_span_with T119 T117
+R84	modifies ARG1:T120 ARG2:T121
+R85	has_low_neg_target ARG1:T121 ARG2:T122
+R86	has_source_expr ARG1:T121 ARG2:T94
+R87	modifies ARG1:T124 ARG2:T121
+*	in_span_with T123 T121
+R88	modifies ARG1:T125 ARG2:T126
+R89	has_medium_pos_target ARG1:T126 ARG2:T128
+R90	has_source_expr ARG1:T126 ARG2:T94
+R91	modifies ARG1:T127 ARG2:T126
+R92	refers_to ARG1:T128 ARG2:T131
+R93	has_medium_pos_target ARG1:T132 ARG2:T130
+R94	has_source_expr ARG1:T132 ARG2:T94
+R95	modifies ARG1:T133 ARG2:T132
+*	in_span_with T129 T126
+R96	modifies ARG1:T135 ARG2:T136
+R97	has_low_pos_target ARG1:T136 ARG2:T137
+R98	has_low_neg_target ARG1:T136 ARG2:T134
+R99	has_source_expr ARG1:T136 ARG2:T94
+R100	has_low_neg_target ARG1:T140 ARG2:T142
+R101	has_low_pos_target ARG1:T140 ARG2:T139
+R102	has_source_expr ARG1:T140 ARG2:T138
+R103	has_medium_neg_target ARG1:T143 ARG2:T141
+R104	has_source_expr ARG1:T143 ARG2:T94
+R105	modifies ARG1:T144 ARG2:T147
+R106	has_medium_pos_target ARG1:T147 ARG2:T146
+R107	has_source_expr ARG1:T147 ARG2:T94
+R108	modifies ARG1:T148 ARG2:T147
+*	in_span_with T145 T147
+R109	modifies ARG1:T150 ARG2:T151
+R110	has_medium_pos_target ARG1:T151 ARG2:T153
+R111	has_source ARG1:T151 ARG2:T149
+R112	has_medium_pos_target ARG1:T152 ARG2:T154
+R113	feature_of ARG1:T154 ARG2:T149
+R114	has_source ARG1:T157 ARG2:T156
+R115	has_medium_pos_target ARG1:T158 ARG2:T160
+R116	has_source_expr ARG1:T158 ARG2:T157
+R117	refers_to ARG1:T159 ARG2:T155
+R118	has_medium_pos_target ARG1:T162 ARG2:T163
+R119	has_source_expr ARG1:T162 ARG2:T157
+R120	refers_to ARG1:T163 ARG2:T161
+*	in_span_with T164 T162
+R121	modifies ARG1:T166 ARG2:T171
+R122	modifies ARG1:T167 ARG2:T171
+R123	modifies ARG1:T169 ARG2:T171
+R124	modifies ARG1:T170 ARG2:T172
+R125	has_medium_pos_target ARG1:T171 ARG2:T165
+R126	has_medium_pos_target ARG1:T172 ARG2:T168
+R127	modifies ARG1:T173 ARG2:T172
+R128	feature_of ARG1:T174 ARG2:T165
+R129	modifies ARG1:T175 ARG2:T176
+R130	has_medium_pos_target ARG1:T176 ARG2:T174
+R131	modifies ARG1:T177 ARG2:T176
+R132	modifies ARG1:T178 ARG2:T181
+R133	has_medium_pos_target ARG1:T179 ARG2:T180
+R134	modifies ARG1:T182 ARG2:T179
+*	in_span_with T181 T179
+R135	feature_of ARG1:T183 ARG2:T199
+R136	modifies ARG1:T184 ARG2:T186
+R137	modifies ARG1:T185 ARG2:T186
+R138	has_medium_pos_target ARG1:T186 ARG2:T183
+R139	modifies ARG1:T187 ARG2:T186
+R140	feature_of ARG1:T188 ARG2:T199
+R141	modifies ARG1:T189 ARG2:T192
+R142	modifies ARG1:T190 ARG2:T192
+R143	modifies ARG1:T191 ARG2:T192
+R144	has_medium_pos_target ARG1:T192 ARG2:T188
+R145	feature_of ARG1:T193 ARG2:T199
+R146	modifies ARG1:T194 ARG2:T196
+R147	modifies ARG1:T195 ARG2:T196
+R148	has_medium_pos_target ARG1:T196 ARG2:T193
+R149	feature_of ARG1:T197 ARG2:T199
+R150	modifies ARG1:T198 ARG2:T200
+R151	has_medium_pos_target ARG1:T200 ARG2:T197
+R152	modifies ARG1:T201 ARG2:T200
+R153	has_source ARG1:T204 ARG2:T205
+R154	has_medium_neg_target ARG1:T206 ARG2:T203
+R155	has_source_expr ARG1:T206 ARG2:T204
+*	in_span_with T202 T206
+*	in_span_with T204 T207
+R156	feature_of ARG1:T208 ARG2:T210
+R157	has_source ARG1:T209 ARG2:T208
+R158	has_low_pos_target ARG1:T211 ARG2:T212
+R159	has_source_expr ARG1:T211 ARG2:T209
+R160	modifies ARG1:T214 ARG2:T215
+R161	has_medium_neg_target ARG1:T215 ARG2:T217
+R162	has_cause ARG1:T215 ARG2:T213
+R163	modifies ARG1:T216 ARG2:T215
+R164	feature_of ARG1:T217 ARG2:T224
+R165	feature_of ARG1:T219 ARG2:T217
+R166	modifies ARG1:T220 ARG2:T222
+R167	has_medium_neg_target ARG1:T222 ARG2:T219
+R168	modifies ARG1:T223 ARG2:T222
+*	in_span_with T218 T215
+R169	refers_to ARG1:T225 ARG2:T224
+R170	feature_of ARG1:T227 ARG2:T225
+R171	has_medium_pos_target ARG1:T228 ARG2:T227
+R172	has_source ARG1:T228 ARG2:T225
+R173	modifies ARG1:T229 ARG2:T228
+R174	has_high_neg_target ARG1:T230 ARG2:T232
+R175	has_source ARG1:T230 ARG2:T224
+R176	modifies ARG1:T231 ARG2:T230
+R177	refers_to ARG1:T232 ARG2:T221
+R178	modifies ARG1:T234 ARG2:T230
+*	in_span_with T228 T226
+*	in_span_with T233 T230
+R179	feature_of ARG1:T236 ARG2:T235
+R180	has_medium_pos_target ARG1:T237 ARG2:T236
+R181	has_cause ARG1:T237 ARG2:T235
+R182	refers_to ARG1:T238 ARG2:T224
+R183	has_medium_pos_target ARG1:T239 ARG2:T240
+R184	has_source ARG1:T239 ARG2:T238
+R185	refers_to ARG1:T241 ARG2:T224
+R186	has_source ARG1:T242 ARG2:T241
+R187	has_medium_pos_target ARG1:T243 ARG2:T244
+R188	has_source_expr ARG1:T243 ARG2:T242
+*	in_span_with T245 T243
+R189	feature_of ARG1:T246 ARG2:T224
+R190	modifies ARG1:T247 ARG2:T250
+R191	modifies ARG1:T248 ARG2:T250
+R192	modifies ARG1:T249 ARG2:T250
+R193	has_medium_neg_target ARG1:T250 ARG2:T246
+R194	modifies ARG1:T251 ARG2:T250
+A1	Type T2 3
+A2	Is_also_source_expression T2 True
+A3	ConfidenceType T2 med
+A4	Type T5 3
+A5	Author_is_source T5 True
+A6	ConfidenceType T5 high
+A7	Modification T9 increase
+A8	Type T10 3
+A9	ConfidenceType T10 med
+A10	Is_also_source_expression T10 True
+A11	Modification T13 past
+A12	ConfidenceType T14 high
+A13	Type T14 3
+A14	Author_is_source T14 True
+A15	Author_is_source T16 True
+A16	Type T16 3
+A17	ConfidenceType T16 high
+A18	Type T18 3
+A19	ConfidenceType T18 high
+A20	Author_is_source T18 True
+A21	Modification T20 future
+A22	Type T21 3
+A23	ConfidenceType T21 high
+A24	Author_is_source T21 True
+A25	Modification T24 past
+A26	Modification T25 past
+A27	Modification T26 specifying
+A28	Type T27 0
+A29	ConfidenceType T27 high
+A30	Author_is_source T27 True
+A31	Modification T28 increase
+A32	Type T29 3
+A33	ConfidenceType T29 high
+A34	Author_is_source T29 True
+A35	Modification T32 future
+A36	Modification T33 negation
+A37	ConfidenceType T34 high
+A38	Author_is_source T34 True
+A39	Type T34 3
+A40	Modification T36 random
+A41	Author_is_source T37 True
+A42	ConfidenceType T37 high
+A43	Type T37 2
+A44	Modification T39 past
+A45	Type T40 3
+A46	ConfidenceType T40 high
+A47	Is_also_source_expression T45 True
+A48	Type T45 3
+A49	ConfidenceType T45 med
+A50	Is_also_source_expression T48 True
+A51	Implicit_source T48 True
+A52	Type T48 3
+A53	ConfidenceType T48 high
+A54	Modification T50 past
+A55	Is_also_source_expression T51 True
+A56	ConfidenceType T51 med
+A57	Type T51 3
+A58	Modification T52 past
+A59	Type T58 0
+A60	Is_insubstantial T58 True
+A61	Modification T59 future
+A62	ConfidenceType T62 high
+A63	Type T62 2
+A64	Author_is_source T62 True
+A65	ConfidenceType T64 high
+A66	Type T64 0
+A67	Author_is_source T64 True
+A68	Author_is_source T67 True
+A69	Type T67 0
+A70	ConfidenceType T67 high
+A71	Author_is_source T71 True
+A72	Type T71 0
+A73	ConfidenceType T71 high
+A74	Author_is_source T74 True
+A75	Type T74 0
+A76	ConfidenceType T74 high
+A77	Modification T75 increase
+A78	Type T76 3
+A79	ConfidenceType T76 med
+A80	Author_is_source T76 True
+A81	Type T80 1
+A82	Author_is_source T80 True
+A83	ConfidenceType T80 med
+A84	Author_is_source T82 True
+A85	Type T82 causal
+A86	ConfidenceType T82 med
+A87	ConfidenceType T83 high
+A88	Author_is_source T83 True
+A89	Type T83 0
+A90	Modification T86 increase
+A91	ConfidenceType T91 med
+A92	Type T91 2
+A93	Author_is_source T91 True
+A94	ConfidenceType T92 med
+A95	Author_is_source T92 True
+A96	Type T92 2
+A97	Type T95 3
+A98	ConfidenceType T95 med
+A99	Modification T97 question
+A100	Modification T98 negation
+A101	Modification T100 increase
+A102	Implicit_source T101 True
+A103	Type T101 2
+A104	ConfidenceType T101 med
+A105	Modification T102 random
+A106	Modification T103 random
+A107	Modification T104 past
+A108	Modification T105 past
+A109	Modification T106 increase
+A110	ConfidenceType T107 high
+A111	Type T107 0
+A112	Implicit_source T107 True
+A113	Type T109 3
+A114	ConfidenceType T109 high
+A115	Implicit_source T109 True
+A116	Modification T111 random
+A117	Type T113 3
+A118	ConfidenceType T113 med
+A119	Implicit_source T113 True
+A120	ConfidenceType T117 med
+A121	Type T117 3
+A122	Implicit_source T117 True
+A123	Modification T120 negation
+A124	ConfidenceType T121 med
+A125	Type T121 3
+A126	Implicit_source T121 True
+A127	Modification T124 future
+A128	Modification T125 past
+A129	Type T126 3
+A130	Implicit_source T126 True
+A131	ConfidenceType T126 med
+A132	Modification T127 past
+A133	Type T132 0
+A134	ConfidenceType T132 high
+A135	Implicit_source T132 True
+A136	Modification T133 past
+A137	Modification T135 future
+A138	ConfidenceType T136 high
+A139	Type T136 3
+A140	Implicit_source T136 True
+A141	Is_also_opinionated T138 True
+A142	Impersonal_source T140 True
+A143	Type T140 3
+A144	ConfidenceType T140 med
+A145	Is_insubstantial T143 True
+A146	Implicit_source T143 True
+A147	Type T143 3
+A148	ConfidenceType T143 high
+A149	Modification T144 negation
+A150	Implicit_source T147 True
+A151	Type T147 0
+A152	ConfidenceType T147 med
+A153	Modification T148 future
+A154	Modification T150 increase
+A155	Is_also_source_expression T151 True
+A156	Type T151 3
+A157	ConfidenceType T151 med
+A158	Author_is_source T152 True
+A159	Type T152 3
+A160	ConfidenceType T152 high
+A161	Type T158 3
+A162	ConfidenceType T158 high
+A163	ConfidenceType T162 med
+A164	Type T162 3
+A165	Implicit_source T162 True
+A166	Modification T166 past
+A167	Modification T167 past
+A168	Modification T169 specifying
+A169	Modification T170 specifying
+A170	Author_is_source T171 True
+A171	Type T171 0
+A172	ConfidenceType T171 high
+A173	Author_is_source T172 True
+A174	Type T172 0
+A175	ConfidenceType T172 high
+A176	Modification T173 perspective
+A177	Modification T175 past
+A178	Type T176 0
+A179	ConfidenceType T176 high
+A180	Author_is_source T176 True
+A181	Modification T177 specifying
+A182	Modification T178 past
+A183	Type T179 0
+A184	Author_is_source T179 True
+A185	ConfidenceType T179 med
+A186	Modification T182 specifying
+A187	Modification T184 past
+A188	Modification T185 specifying
+A189	Type T186 0
+A190	Author_is_source T186 True
+A191	ConfidenceType T186 high
+A192	Modification T187 specifying
+A193	Modification T189 past
+A194	Modification T190 specifying
+A195	Modification T191 specifying
+A196	Type T192 0
+A197	Author_is_source T192 True
+A198	ConfidenceType T192 high
+A199	Modification T194 specifying
+A200	Modification T195 specifying
+A201	Type T196 0
+A202	Author_is_source T196 True
+A203	ConfidenceType T196 high
+A204	Modification T198 past
+A205	Type T200 0
+A206	Author_is_source T200 True
+A207	ConfidenceType T200 high
+A208	Modification T201 specifying
+A209	Is_also_opinionated T204 True
+A210	ConfidenceType T206 med
+A211	Type T206 0
+A212	Type T211 0
+A213	ConfidenceType T211 med
+A214	Modification T214 past
+A215	Type T215 causal
+A216	Author_is_source T215 True
+A217	ConfidenceType T215 high
+A218	Modification T216 past
+A219	Modification T220 increase
+A220	Type T222 1
+A221	Author_is_source T222 True
+A222	ConfidenceType T222 med
+A223	Modification T223 past
+A224	Is_also_opinionated_source_expression T228 True
+A225	Type T228 3
+A226	ConfidenceType T228 med
+A227	Modification T229 random
+A228	Is_also_source_expression T230 True
+A229	Type T230 3
+A230	ConfidenceType T230 high
+A231	Modification T231 past
+A232	Modification T234 negation
+A233	Type T237 causal
+A234	Author_is_source T237 True
+A235	ConfidenceType T237 med
+A236	Type T239 3
+A237	ConfidenceType T239 med
+A238	Is_also_source_expression T239 True
+A239	Is_also_opinionated T242 True
+A240	Type T243 3
+A241	ConfidenceType T243 med
+A242	Modification T247 past
+A243	Modification T248 past
+A244	Modification T249 specifying
+A245	Author_is_source T250 True
+A246	Type T250 0
+A247	ConfidenceType T250 high
+A248	Modification T251 specifying
+#1	AnnotatorNotes T5				implicit source > Bekaert?
+#2	AnnotatorNotes T63				of bij Polar Expression?
+#3	AnnotatorNotes T66				of bij Polar Expression?
+#4	AnnotatorNotes T120				& increase
+#5	AnnotatorNotes T173				of random?
+#6	AnnotatorNotes T211				?

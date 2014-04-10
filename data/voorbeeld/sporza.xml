@@ -1,0 +1,976 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="brat" version="0.9.0" generator="pynlpl.formats.folia-v0.9.0.29">
+  <metadata type="native">
+    <annotations>
+      <entity-annotation set="entiteit_set.xml"/>
+      <morphological-annotation set="morph_set.xml"/>
+      <dependency-annotation set="relation_set.xml"/>
+    </annotations>
+  </metadata>
+  <text xml:id="brat.text.1">
+    <p xml:id="brat.text.1.p.1">
+      <s xml:id="brat.text.1.p.1.s.1">
+        <t>Ik denk dat Anderlecht , met alles wat er de laatste weken gebeurd is , het ergste wel heeft gehad " , vertelt Broos ( foto ) aan Sporza .</t>
+        <w xml:id="brat.text.1.p.1.s.1.w.1">
+          <t>Ik</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.2">
+          <t>denk</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.3">
+          <t>dat</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.4">
+          <t>Anderlecht</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.5">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.6">
+          <t>met</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.7">
+          <t>alles</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.8">
+          <t>wat</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.9">
+          <t>er</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.10">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.11">
+          <t>laatste</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.12">
+          <t>weken</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.13">
+          <t>gebeurd</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.14">
+          <t>is</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.15">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.16">
+          <t>het</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.17">
+          <t>ergste</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.18">
+          <t>wel</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.19">
+          <t>heeft</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.20">
+          <t>gehad</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.21">
+          <t>"</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.22">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.23">
+          <t>vertelt</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.24">
+          <t>Broos</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.25">
+          <t>(</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.26">
+          <t>foto</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.27">
+          <t>)</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.28">
+          <t>aan</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.29">
+          <t>Sporza</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.1.w.30">
+          <t>.</t>
+        </w>
+        <entities>
+          <entity xml:id="T1" class="Entity">
+            <wref id="brat.text.1.p.1.s.1.w.2" t="denk"/>
+          </entity>
+          <entity xml:id="T2" class="PolarExpr">
+            <wref id="brat.text.1.p.1.s.1.w.4" t="Anderlecht"/>
+            <feat subset="Type" class="1"/>
+            <feat subset="ConfidenceType" class="med"/>
+            <feat subset="Author_is_source" class="True"/>
+          </entity>
+        </entities>
+        <dependencies>
+          <dependency xml:id="R1" class="has_low_pos_target">
+            <hd>
+              <wref id="brat.text.1.p.1.s.1.w.4" t="Anderlecht"/>
+              <alignment>
+                <aref type="entity" id="T2"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.1.s.1.w.2" t="denk"/>
+              <alignment>
+                <aref type="entity" id="T1"/>
+              </alignment>
+            </dep>
+          </dependency>
+        </dependencies>
+      </s>
+      <s xml:id="brat.text.1.p.1.s.2">
+        <t>" En met de zege tegen Standard zal het vertrouwen hebben gekweekt voor de laatste drie wedstrijden .</t>
+        <w xml:id="brat.text.1.p.1.s.2.w.1">
+          <t>"</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.2">
+          <t>En</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.3">
+          <t>met</t>
+          <morphology>
+            <morpheme xml:id="brat.text.1.p.1.s.2.w.3.morpheme.1">
+              <t offset="0">me</t>
+            </morpheme>
+          </morphology>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.4">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.5">
+          <t>zege</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.6">
+          <t>tegen</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.7">
+          <t>Standard</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.8">
+          <t>zal</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.9">
+          <t>het</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.10">
+          <t>vertrouwen</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.11">
+          <t>hebben</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.12">
+          <t>gekweekt</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.13">
+          <t>voor</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.14">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.15">
+          <t>laatste</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.16">
+          <t>drie</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.17">
+          <t>wedstrijden</t>
+        </w>
+        <w xml:id="brat.text.1.p.1.s.2.w.18">
+          <t>.</t>
+        </w>
+        <entities>
+          <entity xml:id="T3" class="Entity">
+            <wref id="brat.text.1.p.1.s.2.w.5" t="zege"/>
+          </entity>
+          <entity xml:id="T4" class="PolarExpr">
+            <wref id="brat.text.1.p.1.s.2.w.7" t="Standard"/>
+            <feat subset="ConfidenceType" class="high"/>
+            <feat subset="Type" class="causal"/>
+            <feat subset="Impersonal_source" class="True"/>
+          </entity>
+          <entity xml:id="T5" class="SourceExpr">
+            <wref id="brat.text.1.p.1.s.2.w.10" t="vertrouwen"/>
+          </entity>
+          <entity xml:id="T6" class="CauseExpr">
+            <wref id="brat.text.1.p.1.s.2.w.12" t="gekweekt"/>
+          </entity>
+          <entity xml:id="T7" class="Entity">
+            <wref id="brat.text.1.p.1.s.2.w.13" t="voor"/>
+          </entity>
+        </entities>
+        <dependencies>
+          <dependency xml:id="R3" class="has_source_expr">
+            <hd>
+              <wref id="brat.text.1.p.1.s.2.w.7" t="Standard"/>
+              <alignment>
+                <aref type="entity" id="T4"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.1.s.2.w.10" t="vertrouwen"/>
+              <alignment>
+                <aref type="entity" id="T5"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R4" class="has_cause">
+            <hd>
+              <wref id="brat.text.1.p.1.s.2.w.7" t="Standard"/>
+              <alignment>
+                <aref type="entity" id="T4"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.1.s.1.w.2" t="denk"/>
+              <alignment>
+                <aref type="entity" id="T1"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R2" class="has_medium_neg_target">
+            <hd>
+              <wref id="brat.text.1.p.1.s.2.w.7" t="Standard"/>
+              <alignment>
+                <aref type="entity" id="T4"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.1.s.2.w.5" t="zege"/>
+              <alignment>
+                <aref type="entity" id="T3"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R6" class="has_source">
+            <hd>
+              <wref id="brat.text.1.p.1.s.2.w.10" t="vertrouwen"/>
+              <alignment>
+                <aref type="entity" id="T5"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.1.s.2.w.13" t="voor"/>
+              <alignment>
+                <aref type="entity" id="T7"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R5" class="has_effect">
+            <hd>
+              <wref id="brat.text.1.p.1.s.2.w.12" t="gekweekt"/>
+              <alignment>
+                <aref type="entity" id="T6"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.1.s.2.w.13" t="voor"/>
+              <alignment>
+                <aref type="entity" id="T7"/>
+              </alignment>
+            </dep>
+          </dependency>
+        </dependencies>
+      </s>
+      <s xml:id="brat.text.1.p.1.s.3">
+        <t>" </t>
+        <w xml:id="brat.text.1.p.1.s.3.w.1">
+          <t>"</t>
+        </w>
+      </s>
+      <entities>
+        <entity xml:id="T16" class="Entity">
+          <wref id="brat.text.1.p.1.s.1.w.29" t="Sporza"/>
+          <wref id="brat.text.1.p.1.s.1.w.30" t="."/>
+          <wref id="brat.text.1.p.1.s.2.w.1" t="&quot;"/>
+          <wref id="brat.text.1.p.1.s.2.w.2" t="En"/>
+          <wref id="brat.text.1.p.1.s.2.w.3.morpheme.1" t="me"/>
+        </entity>
+      </entities>
+    </p>
+    <p xml:id="brat.text.1.p.2">
+      <s xml:id="brat.text.1.p.2.s.1">
+        <t>Belga </t>
+        <w xml:id="brat.text.1.p.2.s.1.w.1">
+          <t>Belga</t>
+        </w>
+      </s>
+      <s xml:id="brat.text.1.p.2.s.2">
+        <t>" Het was een verdiende zege , ook al speelt Anderlecht nog niet zijn beste voetbal .</t>
+        <w xml:id="brat.text.1.p.2.s.2.w.1">
+          <t>"</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.2">
+          <t>Het</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.3">
+          <t>was</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.4">
+          <t>een</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.5">
+          <t>verdiende</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.6">
+          <t>zege</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.7">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.8">
+          <t>ook</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.9">
+          <t>al</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.10">
+          <t>speelt</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.11">
+          <t>Anderlecht</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.12">
+          <t>nog</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.13">
+          <t>niet</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.14">
+          <t>zijn</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.15">
+          <t>beste</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.16">
+          <t>voetbal</t>
+          <morphology>
+            <morpheme xml:id="brat.text.1.p.2.s.2.w.16.morpheme.1">
+              <t offset="0">voetba</t>
+            </morpheme>
+          </morphology>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.2.w.17">
+          <t>.</t>
+        </w>
+        <entities>
+          <entity xml:id="T8" class="Target">
+            <wref id="brat.text.1.p.2.s.2.w.5" t="verdiende"/>
+          </entity>
+          <entity xml:id="T9" class="Entity">
+            <wref id="brat.text.1.p.2.s.2.w.9" t="al"/>
+          </entity>
+          <entity xml:id="T10" class="PolarExpr">
+            <wref id="brat.text.1.p.2.s.2.w.10" t="speelt"/>
+            <feat subset="Type" class="1"/>
+            <feat subset="ConfidenceType" class="med"/>
+            <feat subset="Author_is_source" class="True"/>
+          </entity>
+          <entity xml:id="T11" class="Target">
+            <wref id="brat.text.1.p.2.s.2.w.14" t="zijn"/>
+          </entity>
+        </entities>
+        <dependencies>
+          <dependency xml:id="R7" class="has_low_pos_target">
+            <hd>
+              <wref id="brat.text.1.p.2.s.2.w.10" t="speelt"/>
+              <alignment>
+                <aref type="entity" id="T10"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.2.s.2.w.9" t="al"/>
+              <alignment>
+                <aref type="entity" id="T9"/>
+              </alignment>
+            </dep>
+          </dependency>
+        </dependencies>
+        <dependencies>
+          <dependency xml:id="E1" class="Event">
+            <hd>
+              <wref id="brat.text.1.p.2.s.2.w.5" t="verdiende"/>
+              <alignment>
+                <aref type="entity" id="T8"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.2.s.2.w.9" t="al"/>
+              <feat subset="Target" class="Target2"/>
+              <alignment>
+                <aref type="entity" id="T9"/>
+              </alignment>
+            </dep>
+            <dep>
+              <wref id="brat.text.1.p.2.s.2.w.10" t="speelt"/>
+              <feat subset="Target" class="Expression2"/>
+              <alignment>
+                <aref type="entity" id="T10"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="E2" class="Event">
+            <hd>
+              <wref id="brat.text.1.p.2.s.2.w.14" t="zijn"/>
+              <alignment>
+                <aref type="entity" id="T11"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.2.s.2.w.10" t="speelt"/>
+              <feat subset="Target" class="Expression"/>
+              <alignment>
+                <aref type="entity" id="T10"/>
+              </alignment>
+            </dep>
+            <dep>
+              <wref id="brat.text.1.p.2.s.2.w.9" t="al"/>
+              <feat subset="Target" class="Target"/>
+              <alignment>
+                <aref type="entity" id="T9"/>
+              </alignment>
+            </dep>
+          </dependency>
+        </dependencies>
+      </s>
+      <s xml:id="brat.text.1.p.2.s.3">
+        <t>Maar er staat een groep op het veld , met een goeie mentaliteit .</t>
+        <w xml:id="brat.text.1.p.2.s.3.w.1">
+          <t>Maar</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.2">
+          <t>er</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.3">
+          <t>staat</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.4">
+          <t>een</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.5">
+          <t>groep</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.6">
+          <t>op</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.7">
+          <t>het</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.8">
+          <t>veld</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.9">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.10">
+          <t>met</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.11">
+          <t>een</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.12">
+          <t>goeie</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.13">
+          <t>mentaliteit</t>
+        </w>
+        <w xml:id="brat.text.1.p.2.s.3.w.14">
+          <t>.</t>
+        </w>
+        <entities>
+          <entity xml:id="T19" class="Entity">
+            <wref id="brat.text.1.p.2.s.3.w.1" t="Maar"/>
+          </entity>
+          <entity xml:id="T24" class="Modifier">
+            <wref id="brat.text.1.p.2.s.3.w.6" t="op"/>
+          </entity>
+          <entity xml:id="T21" class="PolarExpr">
+            <wref id="brat.text.1.p.2.s.3.w.13" t="mentaliteit"/>
+            <feat subset="ConfidenceType" class="med"/>
+            <feat subset="Type" class="2"/>
+            <feat subset="Author_is_source" class="True"/>
+          </entity>
+        </entities>
+        <dependencies>
+          <dependency xml:id="R16" class="has_low_neg_target">
+            <hd>
+              <wref id="brat.text.1.p.2.s.3.w.13" t="mentaliteit"/>
+              <alignment>
+                <aref type="entity" id="T21"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.2.s.2.w.16.morpheme.1" t="voetba"/>
+              <wref id="brat.text.1.p.2.s.3.w.2" t="er"/>
+              <alignment>
+                <aref type="entity" id="T18"/>
+              </alignment>
+            </dep>
+          </dependency>
+        </dependencies>
+      </s>
+      <s xml:id="brat.text.1.p.2.s.4">
+        <t>" </t>
+        <w xml:id="brat.text.1.p.2.s.4.w.1">
+          <t>"</t>
+        </w>
+      </s>
+      <entities>
+        <entity xml:id="T18" class="Entity">
+          <wref id="brat.text.1.p.2.s.2.w.16.morpheme.1" t="voetba"/>
+          <wref id="brat.text.1.p.2.s.3.w.2" t="er"/>
+        </entity>
+      </entities>
+    </p>
+    <p xml:id="brat.text.1.p.3">
+      <s xml:id="brat.text.1.p.3.s.1">
+        <t>Klein barstje in de feestvreugde was misschien de nukkige reactie van Milan Jovanovic bij zijn vervanging .</t>
+        <w xml:id="brat.text.1.p.3.s.1.w.1">
+          <t>Klein</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.2">
+          <t>barstje</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.3">
+          <t>in</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.4">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.5">
+          <t>feestvreugde</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.6">
+          <t>was</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.7">
+          <t>misschien</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.8">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.9">
+          <t>nukkige</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.10">
+          <t>reactie</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.11">
+          <t>van</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.12">
+          <t>Milan</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.13">
+          <t>Jovanovic</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.14">
+          <t>bij</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.15">
+          <t>zijn</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.16">
+          <t>vervanging</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.1.w.17">
+          <t>.</t>
+        </w>
+        <entities>
+          <entity xml:id="T15" class="Entity">
+            <wref id="brat.text.1.p.3.s.1.w.1" t="Klein"/>
+          </entity>
+          <entity xml:id="T12" class="SourceExpr">
+            <wref id="brat.text.1.p.3.s.1.w.2" t="barstje"/>
+          </entity>
+          <entity xml:id="T13" class="PolarExpr">
+            <wref id="brat.text.1.p.3.s.1.w.5" t="feestvreugde"/>
+            <feat subset="Type" class="3"/>
+            <feat subset="ConfidenceType" class="high"/>
+          </entity>
+          <entity xml:id="T14" class="Entity">
+            <wref id="brat.text.1.p.3.s.1.w.7" t="misschien"/>
+          </entity>
+          <entity xml:id="T23" class="PolarExpr">
+            <wref id="brat.text.1.p.3.s.1.w.15" t="zijn"/>
+            <feat subset="ConfidenceType" class="med"/>
+            <feat subset="Type" class="2"/>
+          </entity>
+        </entities>
+        <dependencies>
+          <dependency xml:id="R10" class="has_source">
+            <hd>
+              <wref id="brat.text.1.p.3.s.1.w.2" t="barstje"/>
+              <alignment>
+                <aref type="entity" id="T12"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.3.s.1.w.1" t="Klein"/>
+              <alignment>
+                <aref type="entity" id="T15"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R8" class="has_low_pos_target">
+            <hd>
+              <wref id="brat.text.1.p.3.s.1.w.5" t="feestvreugde"/>
+              <alignment>
+                <aref type="entity" id="T13"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.3.s.1.w.7" t="misschien"/>
+              <alignment>
+                <aref type="entity" id="T14"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R9" class="has_source_expr">
+            <hd>
+              <wref id="brat.text.1.p.3.s.1.w.5" t="feestvreugde"/>
+              <alignment>
+                <aref type="entity" id="T13"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.3.s.1.w.2" t="barstje"/>
+              <alignment>
+                <aref type="entity" id="T12"/>
+              </alignment>
+            </dep>
+          </dependency>
+          <dependency xml:id="R15" class="has_source_expr">
+            <hd>
+              <wref id="brat.text.1.p.3.s.1.w.15" t="zijn"/>
+              <alignment>
+                <aref type="entity" id="T23"/>
+              </alignment>
+            </hd>
+            <dep>
+              <wref id="brat.text.1.p.3.s.2.w.14" t="weken"/>
+              <alignment>
+                <aref type="entity" id="T22"/>
+              </alignment>
+            </dep>
+          </dependency>
+        </dependencies>
+      </s>
+      <s xml:id="brat.text.1.p.3.s.2">
+        <t>" Om eerlijk te zijn : ik denk dat zijn rol al enkele weken is uitgespeeld .</t>
+        <w xml:id="brat.text.1.p.3.s.2.w.1">
+          <t>"</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.2">
+          <t>Om</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.3">
+          <t>eerlijk</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.4">
+          <t>te</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.5">
+          <t>zijn</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.6">
+          <t>:</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.7">
+          <t>ik</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.8">
+          <t>denk</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.9">
+          <t>dat</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.10">
+          <t>zijn</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.11">
+          <t>rol</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.12">
+          <t>al</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.13">
+          <t>enkele</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.14">
+          <t>weken</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.15">
+          <t>is</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.16">
+          <t>uitgespeeld</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.2.w.17">
+          <t>.</t>
+        </w>
+        <entities>
+          <entity xml:id="T22" class="SourceExpr">
+            <wref id="brat.text.1.p.3.s.2.w.14" t="weken"/>
+          </entity>
+        </entities>
+      </s>
+      <s xml:id="brat.text.1.p.3.s.3">
+        <t>We zien nog maar weinig de Milan Jovanovic die je kan en moet verwachten .</t>
+        <w xml:id="brat.text.1.p.3.s.3.w.1">
+          <t>We</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.2">
+          <t>zien</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.3">
+          <t>nog</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.4">
+          <t>maar</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.5">
+          <t>weinig</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.6">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.7">
+          <t>Milan</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.8">
+          <t>Jovanovic</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.9">
+          <t>die</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.10">
+          <t>je</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.11">
+          <t>kan</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.12">
+          <t>en</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.13">
+          <t>moet</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.14">
+          <t>verwachten</t>
+        </w>
+        <w xml:id="brat.text.1.p.3.s.3.w.15">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="brat.text.1.p.3.s.4">
+        <t>" </t>
+        <w xml:id="brat.text.1.p.3.s.4.w.1">
+          <t>"</t>
+        </w>
+      </s>
+    </p>
+    <p xml:id="brat.text.1.p.4">
+      <s xml:id="brat.text.1.p.4.s.1">
+        <t>" Hij is nog maar weinig beslissend , is heel irriterend op het veld , altijd reclamerend , en als hij de bal kwijtspeelt , wil hij altijd een fout .</t>
+        <w xml:id="brat.text.1.p.4.s.1.w.1">
+          <t>"</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.2">
+          <t>Hij</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.3">
+          <t>is</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.4">
+          <t>nog</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.5">
+          <t>maar</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.6">
+          <t>weinig</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.7">
+          <t>beslissend</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.8">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.9">
+          <t>is</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.10">
+          <t>heel</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.11">
+          <t>irriterend</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.12">
+          <t>op</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.13">
+          <t>het</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.14">
+          <t>veld</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.15">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.16">
+          <t>altijd</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.17">
+          <t>reclamerend</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.18">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.19">
+          <t>en</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.20">
+          <t>als</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.21">
+          <t>hij</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.22">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.23">
+          <t>bal</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.24">
+          <t>kwijtspeelt</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.25">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.26">
+          <t>wil</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.27">
+          <t>hij</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.28">
+          <t>altijd</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.29">
+          <t>een</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.30">
+          <t>fout</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.1.w.31">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="brat.text.1.p.4.s.2">
+        <t>Nee , dit is niet meer de Jovanovic zoals we hem kennen .</t>
+        <w xml:id="brat.text.1.p.4.s.2.w.1">
+          <t>Nee</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.2">
+          <t>,</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.3">
+          <t>dit</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.4">
+          <t>is</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.5">
+          <t>niet</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.6">
+          <t>meer</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.7">
+          <t>de</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.8">
+          <t>Jovanovic</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.9">
+          <t>zoals</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.10">
+          <t>we</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.11">
+          <t>hem</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.12">
+          <t>kennen</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.2.w.13">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="brat.text.1.p.4.s.3">
+        <t>Op deze manier denk ik dat zijn rol bij Anderlecht stilaan is uitgespeeld .</t>
+        <w xml:id="brat.text.1.p.4.s.3.w.1">
+          <t>Op</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.2">
+          <t>deze</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.3">
+          <t>manier</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.4">
+          <t>denk</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.5">
+          <t>ik</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.6">
+          <t>dat</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.7">
+          <t>zijn</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.8">
+          <t>rol</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.9">
+          <t>bij</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.10">
+          <t>Anderlecht</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.11">
+          <t>stilaan</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.12">
+          <t>is</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.13">
+          <t>uitgespeeld</t>
+        </w>
+        <w xml:id="brat.text.1.p.4.s.3.w.14">
+          <t>.</t>
+        </w>
+      </s>
+      <s xml:id="brat.text.1.p.4.s.4">
+        <t>"</t>
+        <w xml:id="brat.text.1.p.4.s.4.w.1">
+          <t>"</t>
+        </w>
+      </s>
+    </p>
+  </text>
+</FoLiA>

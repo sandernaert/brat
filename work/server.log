@@ -1,0 +1,992 @@
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher will call loadConf()
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/"
+MESSAGE:debug: No rules defined
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/voorbeeld/"
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: login
+INFO:root:dispatcher will call login(u'sander', u'sander')
+MESSAGE:comment: Hello!
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.4","1.1","1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372453907
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372453980
+INFO:root:dispatcher handling action: storeSVG
+INFO:root:dispatcher will call storeSVG(u'/voorbeeld/', u'sporza', u'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 1409px; height: 563px;" class=""><!-- document: /voorbeeld//sporza --><defs><filter id="Gaussian_Blur"><feGaussianBlur in="SourceGraphic" stdDeviation="2"/></filter><marker id="drag_arrow" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" class="drag_fill"><polyline points="0,0 5,2.5 0,5 0.2,2.5"/></marker><marker id="arrow_triangle_5_green" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="green"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_3960cd" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="#3960cd"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_ab6b5e" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="#ab6b5e"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_red" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="red"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_black" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="black"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker></defs><g class="background"><rect x="0" y="4" width="1409" height="59" class="background0"/><rect x="0" y="63" width="1409" height="59" class="background1"/><rect x="0" y="122" width="1409" height="18" class="background0"/><rect x="0" y="140" width="1409" height="18" class="background1"/><rect x="0" y="158" width="1409" height="18" class="background0"/><rect x="0" y="176" width="1409" height="68" class="background1"/><rect x="0" y="244" width="1409" height="63" class="background0"/><rect x="0" y="307" width="1409" height="18" class="background1"/><rect x="0" y="325" width="1409" height="18" class="background0"/><rect x="0" y="343" width="1409" height="48" class="background1"/><rect x="0" y="391" width="1409" height="48" class="background0"/><rect x="0" y="439" width="1409" height="18" class="background1"/><rect x="0" y="457" width="1409" height="18" class="background0"/><rect x="0" y="475" width="1409" height="18" class="background1"/><rect x="0" y="493" width="1409" height="18" class="background0"/><rect x="0" y="511" width="1409" height="18" class="background1"/><rect x="0" y="529" width="1409" height="18" class="background0"/><rect x="0" y="547" width="1409" height="18" class="background1"/></g><g class="glow"/><g class="highlight"><rect x="39" y="46" width="28" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="102.5" y="46" width="62" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="826" y="46" width="46" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="768" y="46" width="53" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="42" y="105" width="28" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="140.5" y="105" width="52" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="258" y="105" width="63" height="14" fill="#e5ecfe" rx="3" ry="3" class=""/><rect x="371" y="105" width="55" height="14" fill="#eee1de" rx="3" ry="3" class=""/><rect x="465" y="105" width="25" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="109" y="227" width="56" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="234" y="227" width="10" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="280" y="227" width="35" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="442.5" y="227" width="20" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="511" y="227" width="39" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="24" y="290" width="29" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="57" y="290" width="11" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="166" y="290" width="14" height="14" fill="#fefecc" rx="3" ry="3"/><rect x="329.5" y="290" width="60" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="24.5" y="374" width="29" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="72.5" y="374" width="39" height="14" fill="#e5ecfe" rx="3" ry="3"/><rect x="147.5" y="374" width="75" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="253.5" y="374" width="59" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="571" y="374" width="20" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="309" y="422" width="37" height="14" fill="#e5ecfe" rx="3" ry="3"/></g><g class="text"><text x="0" y="0"><tspan x="24" y="57" data-chunk-id="0" data-id="0">Ik </tspan><tspan x="39" y="57" data-chunk-id="1" data-id="3">denk </tspan><tspan x="75.5" y="57" data-chunk-id="2" data-id="8">dat </tspan><tspan x="102.5" y="57" data-chunk-id="3" data-id="12">Anderlecht </tspan><tspan x="171" y="57" data-chunk-id="4" data-id="23">, </tspan><tspan x="179" y="57" data-chunk-id="5" data-id="25">met </tspan><tspan x="205" y="57" data-chunk-id="6" data-id="29">alles </tspan><tspan x="236" y="57" data-chunk-id="7" data-id="35">wat </tspan><tspan x="260" y="57" data-chunk-id="8" data-id="39">er </tspan><tspan x="275" y="57" data-chunk-id="9" data-id="42">de </tspan><tspan x="293" y="57" data-chunk-id="10" data-id="45">laatste </tspan><tspan x="336" y="57" data-chunk-id="11" data-id="53">weken </tspan><tspan x="377" y="57" data-chunk-id="12" data-id="59">gebeurd </tspan><tspan x="427" y="57" data-chunk-id="13" data-id="67">is </tspan><tspan x="441" y="57" data-chunk-id="14" data-id="70">, </tspan><tspan x="449" y="57" data-chunk-id="15" data-id="72">het </tspan><tspan x="471" y="57" data-chunk-id="16" data-id="76">ergste </tspan><tspan x="511" y="57" data-chunk-id="17" data-id="83">wel </tspan><tspan x="534" y="57" data-chunk-id="18" data-id="87">heeft </tspan><tspan x="567" y="57" data-chunk-id="19" data-id="93" class="">gehad </tspan><tspan x="606" y="57" data-chunk-id="20" data-id="99">" </tspan><tspan x="615" y="57" data-chunk-id="21" data-id="101">, </tspan><tspan x="623" y="57" data-chunk-id="22" data-id="103">vertelt </tspan><tspan x="663" y="57" data-chunk-id="23" data-id="111">Broos </tspan><tspan x="701" y="57" data-chunk-id="24" data-id="117">( </tspan><tspan x="709" y="57" data-chunk-id="25" data-id="119">foto </tspan><tspan x="735" y="57" data-chunk-id="26" data-id="124">) </tspan><tspan x="743" y="57" data-chunk-id="27" data-id="126">aan </tspan><tspan x="768" y="57" data-chunk-id="28" data-id="130">Sporza . \n" En met </tspan></text><text x="0" y="0" class=""><tspan x="24" y="116" data-chunk-id="29" data-id="149">de </tspan><tspan x="42" y="116" data-chunk-id="30" data-id="152">zege </tspan><tspan x="81" y="116" data-chunk-id="31" data-id="157">tegen </tspan><tspan x="140.5" y="116" data-chunk-id="32" data-id="163">Standard </tspan><tspan x="215" y="116" data-chunk-id="33" data-id="172">zal </tspan><tspan x="236" y="116" data-chunk-id="34" data-id="176">het </tspan><tspan x="258" y="116" data-chunk-id="35" data-id="180" class="">vertrouwen </tspan><tspan x="325" y="116" data-chunk-id="36" data-id="191">hebben </tspan><tspan x="371" y="116" data-chunk-id="37" data-id="198">gekweekt </tspan><tspan x="465" y="116" data-chunk-id="38" data-id="207" class="">voor </tspan><tspan x="494" y="116" data-chunk-id="39" data-id="212">de </tspan><tspan x="512" y="116" data-chunk-id="40" data-id="215" class="">laatste </tspan><tspan x="555" y="116" data-chunk-id="41" data-id="223">drie </tspan><tspan x="580" y="116" data-chunk-id="42" data-id="228">wedstrijden </tspan><tspan x="649" y="116" data-chunk-id="43" data-id="240">. </tspan></text><text x="0" y="0"><tspan x="24" y="134" data-chunk-id="44" data-id="242" class="">" \n\n</tspan></text><text x="0" y="0"><tspan x="24" y="170" data-chunk-id="45" data-id="246">Belga \n</tspan></text><text x="0" y="0" class=""><tspan x="24" y="238" data-chunk-id="46" data-id="253" class="">" </tspan><tspan x="33" y="238" data-chunk-id="47" data-id="255" class="">Het </tspan><tspan x="57" y="238" data-chunk-id="48" data-id="259">was </tspan><tspan x="84" y="238" data-chunk-id="49" data-id="263">een </tspan><tspan x="109" y="238" data-chunk-id="50" data-id="267">verdiende </tspan><tspan x="169" y="238" data-chunk-id="51" data-id="277">zege </tspan><tspan x="201" y="238" data-chunk-id="52" data-id="282">, </tspan><tspan x="209" y="238" data-chunk-id="53" data-id="284">ook </tspan><tspan x="234" y="238" data-chunk-id="54" data-id="288" class="">al </tspan><tspan x="280" y="238" data-chunk-id="55" data-id="291">speelt </tspan><tspan x="319" y="238" data-chunk-id="56" data-id="298">Anderlecht </tspan><tspan x="385" y="238" data-chunk-id="57" data-id="309">nog </tspan><tspan x="410" y="238" data-chunk-id="58" data-id="313">niet </tspan><tspan x="442.5" y="238" data-chunk-id="59" data-id="318">zijn </tspan><tspan x="475" y="238" data-chunk-id="60" data-id="323">beste </tspan><tspan x="511" y="238" data-chunk-id="61" data-id="329">voetbal </tspan><tspan x="557" y="238" data-chunk-id="62" data-id="337">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="301" data-chunk-id="63" data-id="340">Maar </tspan><tspan x="57" y="301" data-chunk-id="64" data-id="345">er </tspan><tspan x="72" y="301" data-chunk-id="65" data-id="348">staat </tspan><tspan x="105" y="301" data-chunk-id="66" data-id="354">een </tspan><tspan x="130" y="301" data-chunk-id="67" data-id="358">groep </tspan><tspan x="166" y="301" data-chunk-id="68" data-id="364">op </tspan><tspan x="184" y="301" data-chunk-id="69" data-id="367">het </tspan><tspan x="206" y="301" data-chunk-id="70" data-id="371">veld </tspan><tspan x="234" y="301" data-chunk-id="71" data-id="376">, </tspan><tspan x="242" y="301" data-chunk-id="72" data-id="378">met </tspan><tspan x="268" y="301" data-chunk-id="73" data-id="382">een </tspan><tspan x="293" y="301" data-chunk-id="74" data-id="386">goeie </tspan><tspan x="329.5" y="301" data-chunk-id="75" data-id="392">mentaliteit </tspan><tspan x="397" y="301" data-chunk-id="76" data-id="404">. </tspan></text><text x="0" y="0"><tspan x="24" y="319" data-chunk-id="77" data-id="406">" \n\n</tspan></text><text x="0" y="0"><tspan x="24.5" y="385" data-chunk-id="78" data-id="410">Klein </tspan><tspan x="72.5" y="385" data-chunk-id="79" data-id="416">barstje </tspan><tspan x="115.5" y="385" data-chunk-id="80" data-id="424">in </tspan><tspan x="129.5" y="385" data-chunk-id="81" data-id="427">de </tspan><tspan x="147.5" y="385" data-chunk-id="82" data-id="430">feestvreugde </tspan><tspan x="226.5" y="385" data-chunk-id="83" data-id="443">was </tspan><tspan x="253.5" y="385" data-chunk-id="84" data-id="447">misschien </tspan><tspan x="316.5" y="385" data-chunk-id="85" data-id="457">de </tspan><tspan x="334.5" y="385" data-chunk-id="86" data-id="460">nukkige </tspan><tspan x="383.5" y="385" data-chunk-id="87" data-id="468">reactie </tspan><tspan x="426.5" y="385" data-chunk-id="88" data-id="476">van </tspan><tspan x="451.5" y="385" data-chunk-id="89" data-id="480">Milan </tspan><tspan x="486.5" y="385" data-chunk-id="90" data-id="486">Jovanovic </tspan><tspan x="549.5" y="385" data-chunk-id="91" data-id="496">bij </tspan><tspan x="571" y="385" data-chunk-id="92" data-id="500">zijn </tspan><tspan x="600.5" y="385" data-chunk-id="93" data-id="505">vervanging </tspan><tspan x="667.5" y="385" data-chunk-id="94" data-id="516">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="433" data-chunk-id="95" data-id="519">" </tspan><tspan x="33" y="433" data-chunk-id="96" data-id="521">Om </tspan><tspan x="58" y="433" data-chunk-id="97" data-id="524">eerlijk </tspan><tspan x="96" y="433" data-chunk-id="98" data-id="532">te </tspan><tspan x="111" y="433" data-chunk-id="99" data-id="535">zijn </tspan><tspan x="135" y="433" data-chunk-id="100" data-id="540">: </tspan><tspan x="143" y="433" data-chunk-id="101" data-id="542">ik </tspan><tspan x="157" y="433" data-chunk-id="102" data-id="545">denk </tspan><tspan x="189" y="433" data-chunk-id="103" data-id="550">dat </tspan><tspan x="211" y="433" data-chunk-id="104" data-id="554">zijn </tspan><tspan x="235" y="433" data-chunk-id="105" data-id="559">rol </tspan><tspan x="253" y="433" data-chunk-id="106" data-id="563">al </tspan><tspan x="267" y="433" data-chunk-id="107" data-id="566">enkele </tspan><tspan x="309" y="433" data-chunk-id="108" data-id="573">weken </tspan><tspan x="350" y="433" data-chunk-id="109" data-id="579">is </tspan><tspan x="364" y="433" data-chunk-id="110" data-id="582">uitgespeeld </tspan><tspan x="434" y="433" data-chunk-id="111" data-id="594">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="451" data-chunk-id="112" data-id="597">We </tspan><tspan x="47" y="451" data-chunk-id="113" data-id="600">zien </tspan><tspan x="75" y="451" data-chunk-id="114" data-id="605">nog </tspan><tspan x="100" y="451" data-chunk-id="115" data-id="609">maar </tspan><tspan x="133" y="451" data-chunk-id="116" data-id="614">weinig </tspan><tspan x="173" y="451" data-chunk-id="117" data-id="621">de </tspan><tspan x="191" y="451" data-chunk-id="118" data-id="624">Milan </tspan><tspan x="226" y="451" data-chunk-id="119" data-id="630">Jovanovic </tspan><tspan x="289" y="451" data-chunk-id="120" data-id="640">die </tspan><tspan x="310" y="451" data-chunk-id="121" data-id="644">je </tspan><tspan x="324" y="451" data-chunk-id="122" data-id="647">kan </tspan><tspan x="349" y="451" data-chunk-id="123" data-id="651">en </tspan><tspan x="367" y="451" data-chunk-id="124" data-id="654">moet </tspan><tspan x="400" y="451" data-chunk-id="125" data-id="659">verwachten </tspan><tspan x="470" y="451" data-chunk-id="126" data-id="670">. </tspan></text><text x="0" y="0"><tspan x="24" y="469" data-chunk-id="127" data-id="672">" \n\n</tspan></text><text x="0" y="0"><tspan x="24" y="505" data-chunk-id="128" data-id="676">" </tspan><tspan x="33" y="505" data-chunk-id="129" data-id="678">Hij </tspan><tspan x="52" y="505" data-chunk-id="130" data-id="682">is </tspan><tspan x="66" y="505" data-chunk-id="131" data-id="685">nog </tspan><tspan x="91" y="505" data-chunk-id="132" data-id="689">maar </tspan><tspan x="124" y="505" data-chunk-id="133" data-id="694">weinig </tspan><tspan x="164" y="505" data-chunk-id="134" data-id="701">beslissend </tspan><tspan x="230" y="505" data-chunk-id="135" data-id="712">, </tspan><tspan x="238" y="505" data-chunk-id="136" data-id="714">is </tspan><tspan x="252" y="505" data-chunk-id="137" data-id="717">heel </tspan><tspan x="280" y="505" data-chunk-id="138" data-id="722">irriterend </tspan><tspan x="334" y="505" data-chunk-id="139" data-id="733">op </tspan><tspan x="352" y="505" data-chunk-id="140" data-id="736">het </tspan><tspan x="374" y="505" data-chunk-id="141" data-id="740">veld </tspan><tspan x="402" y="505" data-chunk-id="142" data-id="745">, </tspan><tspan x="410" y="505" data-chunk-id="143" data-id="747">altijd </tspan><tspan x="441" y="505" data-chunk-id="144" data-id="754">reclamerend </tspan><tspan x="516" y="505" data-chunk-id="145" data-id="766">, </tspan><tspan x="524" y="505" data-chunk-id="146" data-id="768">en </tspan><tspan x="542" y="505" data-chunk-id="147" data-id="771">als </tspan><tspan x="563" y="505" data-chunk-id="148" data-id="775">hij </tspan><tspan x="580" y="505" data-chunk-id="149" data-id="779">de </tspan><tspan x="598" y="505" data-chunk-id="150" data-id="782">bal </tspan><tspan x="619" y="505" data-chunk-id="151" data-id="786">kwijtspeelt </tspan><tspan x="684" y="505" data-chunk-id="152" data-id="798">, </tspan><tspan x="692" y="505" data-chunk-id="153" data-id="800">wil </tspan><tspan x="711" y="505" data-chunk-id="154" data-id="804">hij </tspan><tspan x="728" y="505" data-chunk-id="155" data-id="808">altijd </tspan><tspan x="759" y="505" data-chunk-id="156" data-id="815">een </tspan><tspan x="784" y="505" data-chunk-id="157" data-id="819">fout </tspan><tspan x="810" y="505" data-chunk-id="158" data-id="824">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="523" data-chunk-id="159" data-id="827">Nee </tspan><tspan x="51" y="523" data-chunk-id="160" data-id="831">, </tspan><tspan x="59" y="523" data-chunk-id="161" data-id="833">dit </tspan><tspan x="77" y="523" data-chunk-id="162" data-id="837">is </tspan><tspan x="91" y="523" data-chunk-id="163" data-id="840">niet </tspan><tspan x="116" y="523" data-chunk-id="164" data-id="845">meer </tspan><tspan x="149" y="523" data-chunk-id="165" data-id="850">de </tspan><tspan x="167" y="523" data-chunk-id="166" data-id="853">Jovanovic </tspan><tspan x="230" y="523" data-chunk-id="167" data-id="863">zoals </tspan><tspan x="265" y="523" data-chunk-id="168" data-id="869">we </tspan><tspan x="285" y="523" data-chunk-id="169" data-id="872">hem </tspan><tspan x="314" y="523" data-chunk-id="170" data-id="876">kennen </tspan><tspan x="360" y="523" data-chunk-id="171" data-id="883">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="541" data-chunk-id="172" data-id="886">Op </tspan><tspan x="45" y="541" data-chunk-id="173" data-id="889">deze </tspan><tspan x="77" y="541" data-chunk-id="174" data-id="894">manier </tspan><tspan x="120" y="541" data-chunk-id="175" data-id="901">denk </tspan><tspan x="152" y="541" data-chunk-id="176" data-id="906">ik </tspan><tspan x="166" y="541" data-chunk-id="177" data-id="909">dat </tspan><tspan x="188" y="541" data-chunk-id="178" data-id="913">zijn </tspan><tspan x="212" y="541" data-chunk-id="179" data-id="918">rol </tspan><tspan x="230" y="541" data-chunk-id="180" data-id="922">bij </tspan><tspan x="247" y="541" data-chunk-id="181" data-id="926">Anderlecht </tspan><tspan x="313" y="541" data-chunk-id="182" data-id="937">stilaan </tspan><tspan x="355" y="541" data-chunk-id="183" data-id="945">is </tspan><tspan x="369" y="541" data-chunk-id="184" data-id="948">uitgespeeld </tspan><tspan x="439" y="541" data-chunk-id="185" data-id="960">. </tspan></text><text x="0" y="0"><tspan x="24" y="559" data-chunk-id="186" data-id="962">"</tspan></text></g><g transform="translate(0, 57)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(39, 0)"><g/><g class="span"><rect x="4.5" y="-28.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T1" data-fragment-id="0"/><text x="14.5" y="-19" fill="black">Ent</text><path d="M0,-11.5C0,-15.5 14.5,-11.5 14.5,-15.5C14.5,-11.5 28,-15.5 28,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(75.5, 0)"><g/></g><g transform="translate(102.5, 0)"><g/><g class="span"><rect x="-0.5" y="-28.5" width="65" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T2" data-fragment-id="0" stroke-dasharray=","/><text x="31.5" y="-19" fill="black">PolarExpr <tspan class="glyph">1</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 31.5,-11.5 31.5,-15.5C31.5,-11.5 62,-15.5 62,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(171, 0)"><g/></g><g transform="translate(179, 0)"><g/></g><g transform="translate(205, 0)"><g/></g><g transform="translate(236, 0)"><g/></g><g transform="translate(260, 0)"><g/></g><g transform="translate(275, 0)"><g/></g><g transform="translate(293, 0)"><g/></g><g transform="translate(336, 0)"><g/></g><g transform="translate(377, 0)"><g/></g><g transform="translate(427, 0)"><g/></g><g transform="translate(441, 0)"><g/></g><g transform="translate(449, 0)"><g/></g><g transform="translate(471, 0)"><g/></g><g transform="translate(511, 0)"><g/></g><g transform="translate(534, 0)"><g/></g><g transform="translate(567, 0)"><g/></g><g transform="translate(606, 0)"><g/></g><g transform="translate(615, 0)"><g/></g><g transform="translate(623, 0)"><g/></g><g transform="translate(663, 0)"><g/></g><g transform="translate(701, 0)"><g/></g><g transform="translate(709, 0)"><g/></g><g transform="translate(735, 0)"><g/></g><g transform="translate(743, 0)"><g/></g><g transform="translate(768, 0)"><g/><g class="span"><rect x="65.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T16" data-fragment-id="1"/><text x="81.5" y="-19" fill="black">Entity</text><path d="M58,-11.5C58,-15.5 81.5,-11.5 81.5,-15.5C81.5,-11.5 104,-15.5 104,-11.5" class="curly" stroke="#148414"/></g><g class="span"><rect x="10.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T16" data-fragment-id="0"/><text x="26.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 26.5,-11.5 26.5,-15.5C26.5,-11.5 53,-15.5 53,-11.5" class="curly" stroke="#148414"/></g></g><g class="arcs"><g data-from="T2" data-to="T1"><text x="82.75" y="-25.5" fill="green" data-arc-role="has_low_pos_target" data-arc-origin="T2" data-arc-target="T1" data-arc-ed="R1">tgt +</text><path d="M70.75,-28.5L69.75,-28.5Q66.625,-28.5 63.5,-27.5" marker-end="url(#arrow_triangle_5_green)" style="stroke: green" stroke-dasharray=","/><path d="M94.75,-28.5L95.75,-28.5Q98.875,-28.5 102,-22.5" style="stroke: green" stroke-dasharray=","/></g><g data-from="T4" data-to="T1" class=""><text x="735.25" y="-36.5" fill="#ab6b5e" data-arc-role="has_cause" data-arc-origin="T4" data-arc-target="T1" data-arc-ed="R4">has cause</text><path d="M712.75,-39.5L78.5,-39.5Q71,-39.5 63.5,-27.5" marker-end="url(#arrow_triangle_5_ab6b5e)" style="stroke: #ab6b5e" stroke-dasharray=","/><path d="M757.75,-39.5L1407,-39.5" style="stroke: #ab6b5e" stroke-dasharray=","/></g><path d="M810.5,-16.5L833.5,-16.5" style="stroke: #000000" stroke-dasharray="1,3,3,3"/></g></g><g transform="translate(0, 116)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(42, 0)"><g/><g class="span"><rect x="4.5" y="-28.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T3" data-fragment-id="0"/><text x="14.5" y="-19" fill="black">Ent</text><path d="M0,-11.5C0,-15.5 14.5,-11.5 14.5,-15.5C14.5,-11.5 28,-15.5 28,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(81, 0)"><g/></g><g transform="translate(140.5, 0)"><g/><g class="span"><rect x="-16.5" y="-28.5" width="87" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T4" data-fragment-id="0" stroke-dasharray=","/><text x="26.5" y="-19" fill="black">PolarExpr <tspan class="glyph">causal</tspan><tspan class="glyph">.</tspan></text><path d="M0,-11.5C0,-15.5 26.5,-11.5 26.5,-15.5C26.5,-11.5 52,-15.5 52,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(215, 0)"><g/></g><g transform="translate(236, 0)"><g/></g><g transform="translate(258, 0)"><g/><g class="span"><rect x="2.5" y="-28.5" width="59" height="12" class="span_SourceExpr span_default" fill="#7fa2ff" stroke="#002998" rx="2" ry="1" data-span-id="T5" data-fragment-id="0"/><text x="31.5" y="-19" fill="black">SourceExpr</text><path d="M0,-11.5C0,-15.5 31.5,-11.5 31.5,-15.5C31.5,-11.5 63,-15.5 63,-11.5" class="curly" stroke="#002998"/></g></g><g transform="translate(325, 0)"><g/></g><g transform="translate(371, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="55" height="12" class="span_CauseExpr span_default" fill="#ab6b5e" stroke="#452924" rx="2" ry="1" data-span-id="T6" data-fragment-id="0"/><text x="27.5" y="-19" fill="black">CauseExpr</text><path d="M0,-11.5C0,-15.5 27.5,-11.5 27.5,-15.5C27.5,-11.5 55,-15.5 55,-11.5" class="curly" stroke="#452924"/></g></g><g transform="translate(465, 0)"><g/><g class="span"><rect x="2.5" y="-28.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T7" data-fragment-id="0"/><text x="12.5" y="-19" fill="black">Ent</text><path d="M0,-11.5C0,-15.5 12.5,-11.5 12.5,-15.5C12.5,-11.5 25,-15.5 25,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(494, 0)"><g/></g><g transform="translate(512, 0)"><g/></g><g transform="translate(555, 0)"><g/></g><g transform="translate(580, 0)"><g/></g><g transform="translate(649, 0)"><g/></g><g class="arcs"><g data-from="T6" data-to="T7"><text x="447" y="-25.5" fill="#ab6b5e" data-arc-role="has_effect" data-arc-origin="T6" data-arc-target="T7" data-arc-ed="R5">effect</text><path d="M433.5,-28.5L432.5,-28.5Q429.5,-28.5 426.5,-22.5" style="stroke: #ab6b5e" stroke-dasharray=","/><path d="M460.5,-28.5L461.5,-28.5Q464.5,-28.5 467.5,-27.5" marker-end="url(#arrow_triangle_5_ab6b5e)" style="stroke: #ab6b5e" stroke-dasharray=","/></g><g data-from="T4" data-to="T3"><text x="95.25" y="-25.5" fill="red" data-arc-role="has_medium_neg_target" data-arc-origin="T4" data-arc-target="T3" data-arc-ed="R2">target: --</text><path d="M74.25,-28.5L73.25,-28.5Q69.875,-28.5 66.5,-27.5" marker-end="url(#arrow_triangle_5_red)" style="stroke: red" stroke-dasharray=","/><path d="M116.25,-28.5L117.25,-28.5Q120.625,-28.5 124,-22.5" style="stroke: red" stroke-dasharray=","/></g><g data-from="T4" data-to="T5"><text x="235.75" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T4" data-arc-target="T5" data-arc-ed="R3">has SE</text><path d="M220.75,-28.5L219.75,-28.5Q215.375,-28.5 211,-22.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M250.75,-28.5L251.75,-28.5Q256.125,-28.5 260.5,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T5" data-to="T7"><text x="393.5" y="-36.5" fill="#3960cd" data-arc-role="has_source" data-arc-origin="T5" data-arc-target="T7" data-arc-ed="R6">has source</text><path d="M369,-39.5L334.5,-39.5Q327,-39.5 319.5,-22.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M418,-39.5L452.5,-39.5Q460,-39.5 467.5,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T4" data-to="T1" class=""><text x="72" y="-36.5" fill="#ab6b5e" data-arc-role="has_cause" data-arc-origin="T4" data-arc-target="T1" data-arc-ed="R4" class="">has cause</text><path d="M49.5,-39.5L20,-39.5" marker-end="url(#arrow_triangle_5_ab6b5e)" style="stroke: #ab6b5e" stroke-dasharray=","/><path d="M94.5,-39.5L109,-39.5Q116.5,-39.5 124,-22.5" style="stroke: #ab6b5e" stroke-dasharray=","/></g></g></g><g transform="translate(0, 134)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 152)"><g/><g class="arcs"/></g><g transform="translate(0, 170)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 238)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(33, 0)"><g/></g><g transform="translate(57, 0)"><g/></g><g transform="translate(84, 0)"><g/></g><g transform="translate(109, 0)"><g/><g class="span"><rect x="10.5" y="-28.5" width="36" height="12" class="span_Target span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="E1" data-fragment-id="0"/><text x="28.5" y="-19" fill="black">Target</text><path d="M0,-11.5C0,-15.5 28.5,-11.5 28.5,-15.5C28.5,-11.5 56,-15.5 56,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(169, 0)"><g/></g><g transform="translate(201, 0)"><g/></g><g transform="translate(209, 0)"><g/></g><g transform="translate(234, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="10" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T9" data-fragment-id="0"/><text x="5.5" y="-19" fill="black">E</text><path d="M0,-11.5C0,-15.5 5.5,-11.5 5.5,-15.5C5.5,-11.5 10,-15.5 10,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(280, 0)"><g/><g class="span"><rect x="2.5" y="-28.5" width="30" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T10" data-fragment-id="0" stroke-dasharray=","/><text x="17.5" y="-19" fill="black">PE <tspan class="glyph">1</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 17.5,-11.5 17.5,-15.5C17.5,-11.5 35,-15.5 35,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(319, 0)"><g/></g><g transform="translate(385, 0)"><g/></g><g transform="translate(410, 0)"><g/></g><g transform="translate(442.5, 0)"><g/><g class="span"><rect x="-7.5" y="-28.5" width="36" height="12" class="span_Target span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="E2" data-fragment-id="0"/><text x="10.5" y="-19" fill="black">Target</text><path d="M0,-11.5C0,-15.5 10.5,-11.5 10.5,-15.5C10.5,-11.5 20,-15.5 20,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(475, 0)"><g/></g><g transform="translate(511, 0)"><g/><g class="span"><rect x="3.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T18" data-fragment-id="0"/><text x="19.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 19.5,-11.5 19.5,-15.5C19.5,-11.5 39,-15.5 39,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(557, 0)"><g/></g><g class="arcs"><g data-from="T10" data-to="T9"><text x="263.5" y="-25.5" fill="green" data-arc-role="has_low_pos_target" data-arc-origin="T10" data-arc-target="T9" data-arc-ed="R7">tgt +</text><path d="M251.5,-28.5L250.5,-28.5Q247.5,-28.5 244.5,-27.5" marker-end="url(#arrow_triangle_5_green)" style="stroke: green" stroke-dasharray=","/><path d="M275.5,-28.5L276.5,-28.5Q279.5,-28.5 282.5,-22.5" style="stroke: green" stroke-dasharray=","/></g><g data-from="E1" data-to="T9" class=""><text x="195" y="-25.5" fill="black" data-arc-role="Target2" data-arc-origin="E1" data-arc-target="T9"><tspan fill="black" data-arc-role="Target2" data-arc-origin="E1" data-arc-target="T9">Target</tspan><tspan dy="0.3em" font-size="80%" fill="black" data-arc-role="Target2" data-arc-origin="E1" data-arc-target="T9">2</tspan></text><path d="M180,-28.5L170.5,-28.5Q163,-28.5 155.5,-22.5" style="stroke: black" stroke-dasharray=","/><path d="M210,-28.5L219.5,-28.5Q227,-28.5 234.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/></g><g data-from="E2" data-to="T10"><text x="373.75" y="-25.5" fill="black" data-arc-role="Expression" data-arc-origin="E2" data-arc-target="T10">Expression</text><path d="M349.25,-28.5L327.5,-28.5Q320,-28.5 312.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/><path d="M398.25,-28.5L420,-28.5Q427.5,-28.5 435,-22.5" style="stroke: black" stroke-dasharray=","/></g><g data-from="E1" data-to="T10" class=""><text x="219" y="-36.5" fill="black" data-arc-role="Expression2" data-arc-origin="E1" data-arc-target="T10"><tspan fill="black" data-arc-role="Expression2" data-arc-origin="E1" data-arc-target="T10">Expression</tspan><tspan dy="0.3em" font-size="80%" fill="black" data-arc-role="Expression2" data-arc-origin="E1" data-arc-target="T10">2</tspan></text><path d="M194.5,-39.5L170.5,-39.5Q163,-39.5 155.5,-22.5" style="stroke: black" stroke-dasharray=","/><path d="M243.5,-39.5L267.5,-39.5Q275,-39.5 282.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/></g><g data-from="E2" data-to="T9"><text x="339.75" y="-45.5" fill="black" data-arc-role="Target" data-arc-origin="E2" data-arc-target="T9">Target</text><path d="M324.75,-48.5L259.5,-48.5Q252,-48.5 244.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/><path d="M354.75,-48.5L420,-48.5Q427.5,-48.5 435,-22.5" style="stroke: black" stroke-dasharray=","/></g><path d="M546.5,-16.5L1407,-16.5" style="stroke: #000000" stroke-dasharray="1,3,3,3"/></g></g><g transform="translate(0, 301)"><g/><g transform="translate(24, 0)"><g/><g class="span"><rect x="4.5" y="-45.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T19" data-fragment-id="0"/><text x="14.5" y="-36" fill="black">Ent</text><path d="M0,-28.5C0,-32.5 14.5,-28.5 14.5,-32.5C14.5,-28.5 29,-32.5 29,-28.5" class="curly" stroke="#148414"/></g></g><g transform="translate(57, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="10" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T18" data-fragment-id="1"/><text x="5.5" y="-19" fill="black">E</text><path d="M0,-11.5C0,-15.5 5.5,-11.5 5.5,-15.5C5.5,-11.5 11,-15.5 11,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(72, 0)"><g/></g><g transform="translate(105, 0)"><g/></g><g transform="translate(130, 0)"><g/></g><g transform="translate(166, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="13" height="12" class="span_Modifier span_default" fill="yellow" stroke="#656600" rx="2" ry="1" data-span-id="T24" data-fragment-id="0"/><text x="7.5" y="-19" fill="black">M</text><path d="M0,-11.5C0,-15.5 7.5,-11.5 7.5,-15.5C7.5,-11.5 14,-15.5 14,-11.5" class="curly" stroke="#656600"/></g></g><g transform="translate(184, 0)"><g/></g><g transform="translate(206, 0)"><g/></g><g transform="translate(234, 0)"><g/></g><g transform="translate(242, 0)"><g/></g><g transform="translate(268, 0)"><g/></g><g transform="translate(293, 0)"><g/></g><g transform="translate(329.5, 0)"><g/><g class="span"><rect x="-1.5" y="-28.5" width="65" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T21" data-fragment-id="0" stroke-dasharray=","/><text x="30.5" y="-19" fill="black">PolarExpr <tspan class="glyph">2</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 30.5,-11.5 30.5,-15.5C30.5,-11.5 60,-15.5 60,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(397, 0)"><g/></g><g class="arcs"><g data-from="T21" data-to="T18"><text x="197.75" y="-36.5" fill="red" data-arc-role="has_low_neg_target" data-arc-origin="T21" data-arc-target="T18" data-arc-ed="R16">has low negative target</text><path d="M143.25,-39.5L82.5,-39.5Q75,-39.5 67.5,-27.5" marker-end="url(#arrow_triangle_5_red)" style="stroke: red" stroke-dasharray=","/><path d="M252.25,-39.5L313,-39.5Q320.5,-39.5 328,-22.5" style="stroke: red" stroke-dasharray=","/></g><path d="M20,-16.5L57.5,-16.5" style="stroke: #000000" stroke-dasharray="1,3,3,3"/></g></g><g transform="translate(0, 319)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 337)"><g/><g class="arcs"/></g><g transform="translate(0, 385)"><g/><g transform="translate(24.5, 0)"><g/><g class="span"><rect x="-0.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T15" data-fragment-id="0"/><text x="14.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 14.5,-11.5 14.5,-15.5C14.5,-11.5 29,-15.5 29,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(72.5, 0)"><g/><g class="span"><rect x="11.5" y="-28.5" width="16" height="12" class="span_SourceExpr span_default" fill="#7fa2ff" stroke="#002998" rx="2" ry="1" data-span-id="T12" data-fragment-id="0"/><text x="19.5" y="-19" fill="black">SE</text><path d="M0,-11.5C0,-15.5 19.5,-11.5 19.5,-15.5C19.5,-11.5 39,-15.5 39,-11.5" class="curly" stroke="#002998"/></g></g><g transform="translate(115.5, 0)"><g/></g><g transform="translate(129.5, 0)"><g/></g><g transform="translate(147.5, 0)"><g/><g class="span"><rect x="6.5" y="-28.5" width="62" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T13" data-fragment-id="0" stroke-dasharray=","/><text x="37.5" y="-19" fill="black">PolarExpr <tspan class="glyph">3</tspan><tspan class="glyph">.</tspan></text><path d="M0,-11.5C0,-15.5 37.5,-11.5 37.5,-15.5C37.5,-11.5 75,-15.5 75,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(226.5, 0)"><g/></g><g transform="translate(253.5, 0)"><g/><g class="span"><rect x="13.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T14" data-fragment-id="0"/><text x="29.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 29.5,-11.5 29.5,-15.5C29.5,-11.5 59,-15.5 59,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(316.5, 0)"><g/></g><g transform="translate(334.5, 0)"><g/></g><g transform="translate(383.5, 0)"><g/></g><g transform="translate(426.5, 0)"><g/></g><g transform="translate(451.5, 0)"><g/></g><g transform="translate(486.5, 0)"><g/></g><g transform="translate(549.5, 0)"><g/></g><g transform="translate(571, 0)"><g/><g class="span"><rect x="-4.5" y="-28.5" width="30" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T23" data-fragment-id="0" stroke-dasharray="2,2"/><text x="10.5" y="-19" fill="black">PE <tspan class="glyph">2</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 10.5,-11.5 10.5,-15.5C10.5,-11.5 20,-15.5 20,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(600.5, 0)"><g/></g><g transform="translate(667.5, 0)"><g/></g><g class="arcs"><g data-from="T12" data-to="T15"><text x="70" y="-25.5" fill="#3960cd" data-arc-role="has_source" data-arc-origin="T12" data-arc-target="T15" data-arc-ed="R10">src</text><path d="M63,-28.5L62,-28.5Q59,-28.5 56,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/><path d="M77,-28.5L78,-28.5Q81,-28.5 84,-22.5" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T13" data-to="T14"><text x="241.5" y="-25.5" fill="green" data-arc-role="has_low_pos_target" data-arc-origin="T13" data-arc-target="T14" data-arc-ed="R8">tgt +</text><path d="M229.5,-28.5L228.5,-28.5Q222.25,-28.5 216,-22.5" style="stroke: green" stroke-dasharray=","/><path d="M253.5,-28.5L254.5,-28.5Q260.75,-28.5 267,-27.5" marker-end="url(#arrow_triangle_5_green)" style="stroke: green" stroke-dasharray=","/></g><g data-from="T13" data-to="T12"><text x="127" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T13" data-arc-target="T12" data-arc-ed="R9">has SE</text><path d="M112,-28.5L111,-28.5Q105.5,-28.5 100,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/><path d="M142,-28.5L143,-28.5Q148.5,-28.5 154,-22.5" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T23" data-to="T22"><text x="1001.75" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T23" data-arc-target="T22" data-arc-ed="R15">has source expression</text><path d="M952.25,-28.5L611.5,-28.5Q604,-28.5 596.5,-22.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M1051.25,-28.5L1407,-28.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g></g></g><g transform="translate(0, 433)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(33, 0)"><g/></g><g transform="translate(58, 0)"><g/></g><g transform="translate(96, 0)"><g/></g><g transform="translate(111, 0)"><g/></g><g transform="translate(135, 0)"><g/></g><g transform="translate(143, 0)"><g/></g><g transform="translate(157, 0)"><g/></g><g transform="translate(189, 0)"><g/></g><g transform="translate(211, 0)"><g/></g><g transform="translate(235, 0)"><g/></g><g transform="translate(253, 0)"><g/></g><g transform="translate(267, 0)"><g/></g><g transform="translate(309, 0)"><g/><g class="span"><rect x="10.5" y="-28.5" width="16" height="12" class="span_SourceExpr span_default" fill="#7fa2ff" stroke="#002998" rx="2" ry="1" data-span-id="T22" data-fragment-id="0"/><text x="18.5" y="-19" fill="black">SE</text><path d="M0,-11.5C0,-15.5 18.5,-11.5 18.5,-15.5C18.5,-11.5 37,-15.5 37,-11.5" class="curly" stroke="#002998"/></g></g><g transform="translate(350, 0)"><g/></g><g transform="translate(364, 0)"><g/></g><g transform="translate(434, 0)"><g/></g><g class="arcs"><g data-from="T23" data-to="T22"><text x="169.75" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T23" data-arc-target="T22" data-arc-ed="R15">has source expression</text><path d="M120.25,-28.5L20,-28.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M219.25,-28.5L304.5,-28.5Q312,-28.5 319.5,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g></g></g><g transform="translate(0, 451)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(47, 0)"><g/></g><g transform="translate(75, 0)"><g/></g><g transform="translate(100, 0)"><g/></g><g transform="translate(133, 0)"><g/></g><g transform="translate(173, 0)"><g/></g><g transform="translate(191, 0)"><g/></g><g transform="translate(226, 0)"><g/></g><g transform="translate(289, 0)"><g/></g><g transform="translate(310, 0)"><g/></g><g transform="translate(324, 0)"><g/></g><g transform="translate(349, 0)"><g/></g><g transform="translate(367, 0)"><g/></g><g transform="translate(400, 0)"><g/></g><g transform="translate(470, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 469)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 487)"><g/><g class="arcs"/></g><g transform="translate(0, 505)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(33, 0)"><g/></g><g transform="translate(52, 0)"><g/></g><g transform="translate(66, 0)"><g/></g><g transform="translate(91, 0)"><g/></g><g transform="translate(124, 0)"><g/></g><g transform="translate(164, 0)"><g/></g><g transform="translate(230, 0)"><g/></g><g transform="translate(238, 0)"><g/></g><g transform="translate(252, 0)"><g/></g><g transform="translate(280, 0)"><g/></g><g transform="translate(334, 0)"><g/></g><g transform="translate(352, 0)"><g/></g><g transform="translate(374, 0)"><g/></g><g transform="translate(402, 0)"><g/></g><g transform="translate(410, 0)"><g/></g><g transform="translate(441, 0)"><g/></g><g transform="translate(516, 0)"><g/></g><g transform="translate(524, 0)"><g/></g><g transform="translate(542, 0)"><g/></g><g transform="translate(563, 0)"><g/></g><g transform="translate(580, 0)"><g/></g><g transform="translate(598, 0)"><g/></g><g transform="translate(619, 0)"><g/></g><g transform="translate(684, 0)"><g/></g><g transform="translate(692, 0)"><g/></g><g transform="translate(711, 0)"><g/></g><g transform="translate(728, 0)"><g/></g><g transform="translate(759, 0)"><g/></g><g transform="translate(784, 0)"><g/></g><g transform="translate(810, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 523)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(51, 0)"><g/></g><g transform="translate(59, 0)"><g/></g><g transform="translate(77, 0)"><g/></g><g transform="translate(91, 0)"><g/></g><g transform="translate(116, 0)"><g/></g><g transform="translate(149, 0)"><g/></g><g transform="translate(167, 0)"><g/></g><g transform="translate(230, 0)"><g/></g><g transform="translate(265, 0)"><g/></g><g transform="translate(285, 0)"><g/></g><g transform="translate(314, 0)"><g/></g><g transform="translate(360, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 541)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(45, 0)"><g/></g><g transform="translate(77, 0)"><g/></g><g transform="translate(120, 0)"><g/></g><g transform="translate(152, 0)"><g/></g><g transform="translate(166, 0)"><g/></g><g transform="translate(188, 0)"><g/></g><g transform="translate(212, 0)"><g/></g><g transform="translate(230, 0)"><g/></g><g transform="translate(247, 0)"><g/></g><g transform="translate(313, 0)"><g/></g><g transform="translate(355, 0)"><g/></g><g transform="translate(369, 0)"><g/></g><g transform="translate(439, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 559)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g class="sentnum"><a xlink:href="#/voorbeeld/sporza?focus=sent~1" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="57" data-sent="1">1</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~2" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="116" data-sent="2">2</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~3" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="134" data-sent="3">3</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~5" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="170" data-sent="5">5</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~6" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="238" data-sent="6">6</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~7" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="301" data-sent="7">7</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~8" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="319" data-sent="8">8</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~10" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="385" data-sent="10">10</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~11" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="433" data-sent="11">11</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~12" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="451" data-sent="12">12</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~13" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="469" data-sent="13">13</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~15" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="505" data-sent="15">15</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~16" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="523" data-sent="16">16</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~17" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="541" data-sent="17">17</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~18" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="559" data-sent="18">18</text></a><path d="M20,0L20,563"/></g></svg>')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'sporza', u'/voorbeeld/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/voorbeeld/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372455614
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: storeSVG
+INFO:root:dispatcher will call storeSVG(u'/voorbeeld/', u'sporza', u'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 1409px; height: 563px;" class=""><!-- document: /voorbeeld//sporza --><defs><filter id="Gaussian_Blur"><feGaussianBlur in="SourceGraphic" stdDeviation="2"/></filter><marker id="drag_arrow" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" class="drag_fill"><polyline points="0,0 5,2.5 0,5 0.2,2.5"/></marker><marker id="arrow_triangle_5_green" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="green"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_3960cd" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="#3960cd"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_ab6b5e" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="#ab6b5e"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_red" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="red"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker><marker id="arrow_triangle_5_black" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" fill="black"><polyline points="0,0 5,2.5 0,5 0.4166666666666667,2.5"/></marker></defs><g class="background"><rect x="0" y="4" width="1409" height="59" class="background0"/><rect x="0" y="63" width="1409" height="59" class="background1"/><rect x="0" y="122" width="1409" height="18" class="background0"/><rect x="0" y="140" width="1409" height="18" class="background1"/><rect x="0" y="158" width="1409" height="18" class="background0"/><rect x="0" y="176" width="1409" height="68" class="background1"/><rect x="0" y="244" width="1409" height="63" class="background0"/><rect x="0" y="307" width="1409" height="18" class="background1"/><rect x="0" y="325" width="1409" height="18" class="background0"/><rect x="0" y="343" width="1409" height="48" class="background1"/><rect x="0" y="391" width="1409" height="48" class="background0"/><rect x="0" y="439" width="1409" height="18" class="background1"/><rect x="0" y="457" width="1409" height="18" class="background0"/><rect x="0" y="475" width="1409" height="18" class="background1"/><rect x="0" y="493" width="1409" height="18" class="background0"/><rect x="0" y="511" width="1409" height="18" class="background1"/><rect x="0" y="529" width="1409" height="18" class="background0"/><rect x="0" y="547" width="1409" height="18" class="background1"/></g><g class="glow"/><g class="highlight"><rect x="39" y="46" width="28" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="102.5" y="46" width="62" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="826" y="46" width="46" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="768" y="46" width="53" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="42" y="105" width="28" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="140.5" y="105" width="52" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="258" y="105" width="63" height="14" fill="#e5ecfe" rx="3" ry="3"/><rect x="371" y="105" width="55" height="14" fill="#eee1de" rx="3" ry="3"/><rect x="465" y="105" width="25" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="109" y="227" width="56" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="234" y="227" width="10" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="280" y="227" width="35" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="442.5" y="227" width="20" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="511" y="227" width="39" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="24" y="290" width="29" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="57" y="290" width="11" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="166" y="290" width="14" height="14" fill="#fefecc" rx="3" ry="3"/><rect x="329.5" y="290" width="60" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="24.5" y="374" width="29" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="72.5" y="374" width="39" height="14" fill="#e5ecfe" rx="3" ry="3"/><rect x="147.5" y="374" width="75" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="253.5" y="374" width="59" height="14" fill="#e8fbe8" rx="3" ry="3"/><rect x="571" y="374" width="20" height="14" fill="#ffdbdb" rx="3" ry="3"/><rect x="309" y="422" width="37" height="14" fill="#e5ecfe" rx="3" ry="3"/></g><g class="text"><text x="0" y="0"><tspan x="24" y="57" data-chunk-id="0" data-id="0">Ik </tspan><tspan x="39" y="57" data-chunk-id="1" data-id="3">denk </tspan><tspan x="75.5" y="57" data-chunk-id="2" data-id="8">dat </tspan><tspan x="102.5" y="57" data-chunk-id="3" data-id="12">Anderlecht </tspan><tspan x="171" y="57" data-chunk-id="4" data-id="23">, </tspan><tspan x="179" y="57" data-chunk-id="5" data-id="25">met </tspan><tspan x="205" y="57" data-chunk-id="6" data-id="29">alles </tspan><tspan x="236" y="57" data-chunk-id="7" data-id="35">wat </tspan><tspan x="260" y="57" data-chunk-id="8" data-id="39">er </tspan><tspan x="275" y="57" data-chunk-id="9" data-id="42">de </tspan><tspan x="293" y="57" data-chunk-id="10" data-id="45" class="">laatste </tspan><tspan x="336" y="57" data-chunk-id="11" data-id="53">weken </tspan><tspan x="377" y="57" data-chunk-id="12" data-id="59">gebeurd </tspan><tspan x="427" y="57" data-chunk-id="13" data-id="67">is </tspan><tspan x="441" y="57" data-chunk-id="14" data-id="70">, </tspan><tspan x="449" y="57" data-chunk-id="15" data-id="72">het </tspan><tspan x="471" y="57" data-chunk-id="16" data-id="76">ergste </tspan><tspan x="511" y="57" data-chunk-id="17" data-id="83">wel </tspan><tspan x="534" y="57" data-chunk-id="18" data-id="87">heeft </tspan><tspan x="567" y="57" data-chunk-id="19" data-id="93" class="">gehad </tspan><tspan x="606" y="57" data-chunk-id="20" data-id="99">" </tspan><tspan x="615" y="57" data-chunk-id="21" data-id="101">, </tspan><tspan x="623" y="57" data-chunk-id="22" data-id="103">vertelt </tspan><tspan x="663" y="57" data-chunk-id="23" data-id="111">Broos </tspan><tspan x="701" y="57" data-chunk-id="24" data-id="117">( </tspan><tspan x="709" y="57" data-chunk-id="25" data-id="119">foto </tspan><tspan x="735" y="57" data-chunk-id="26" data-id="124">) </tspan><tspan x="743" y="57" data-chunk-id="27" data-id="126">aan </tspan><tspan x="768" y="57" data-chunk-id="28" data-id="130">Sporza . \n" En met </tspan></text><text x="0" y="0"><tspan x="24" y="116" data-chunk-id="29" data-id="149">de </tspan><tspan x="42" y="116" data-chunk-id="30" data-id="152">zege </tspan><tspan x="81" y="116" data-chunk-id="31" data-id="157">tegen </tspan><tspan x="140.5" y="116" data-chunk-id="32" data-id="163">Standard </tspan><tspan x="215" y="116" data-chunk-id="33" data-id="172">zal </tspan><tspan x="236" y="116" data-chunk-id="34" data-id="176">het </tspan><tspan x="258" y="116" data-chunk-id="35" data-id="180">vertrouwen </tspan><tspan x="325" y="116" data-chunk-id="36" data-id="191">hebben </tspan><tspan x="371" y="116" data-chunk-id="37" data-id="198" class="">gekweekt </tspan><tspan x="465" y="116" data-chunk-id="38" data-id="207">voor </tspan><tspan x="494" y="116" data-chunk-id="39" data-id="212">de </tspan><tspan x="512" y="116" data-chunk-id="40" data-id="215">laatste </tspan><tspan x="555" y="116" data-chunk-id="41" data-id="223">drie </tspan><tspan x="580" y="116" data-chunk-id="42" data-id="228">wedstrijden </tspan><tspan x="649" y="116" data-chunk-id="43" data-id="240">. </tspan></text><text x="0" y="0"><tspan x="24" y="134" data-chunk-id="44" data-id="242">" \n\n</tspan></text><text x="0" y="0"><tspan x="24" y="170" data-chunk-id="45" data-id="246">Belga \n</tspan></text><text x="0" y="0"><tspan x="24" y="238" data-chunk-id="46" data-id="253">" </tspan><tspan x="33" y="238" data-chunk-id="47" data-id="255">Het </tspan><tspan x="57" y="238" data-chunk-id="48" data-id="259">was </tspan><tspan x="84" y="238" data-chunk-id="49" data-id="263">een </tspan><tspan x="109" y="238" data-chunk-id="50" data-id="267">verdiende </tspan><tspan x="169" y="238" data-chunk-id="51" data-id="277">zege </tspan><tspan x="201" y="238" data-chunk-id="52" data-id="282">, </tspan><tspan x="209" y="238" data-chunk-id="53" data-id="284">ook </tspan><tspan x="234" y="238" data-chunk-id="54" data-id="288">al </tspan><tspan x="280" y="238" data-chunk-id="55" data-id="291">speelt </tspan><tspan x="319" y="238" data-chunk-id="56" data-id="298">Anderlecht </tspan><tspan x="385" y="238" data-chunk-id="57" data-id="309">nog </tspan><tspan x="410" y="238" data-chunk-id="58" data-id="313">niet </tspan><tspan x="442.5" y="238" data-chunk-id="59" data-id="318">zijn </tspan><tspan x="475" y="238" data-chunk-id="60" data-id="323">beste </tspan><tspan x="511" y="238" data-chunk-id="61" data-id="329">voetbal </tspan><tspan x="557" y="238" data-chunk-id="62" data-id="337">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="301" data-chunk-id="63" data-id="340">Maar </tspan><tspan x="57" y="301" data-chunk-id="64" data-id="345">er </tspan><tspan x="72" y="301" data-chunk-id="65" data-id="348">staat </tspan><tspan x="105" y="301" data-chunk-id="66" data-id="354">een </tspan><tspan x="130" y="301" data-chunk-id="67" data-id="358">groep </tspan><tspan x="166" y="301" data-chunk-id="68" data-id="364">op </tspan><tspan x="184" y="301" data-chunk-id="69" data-id="367">het </tspan><tspan x="206" y="301" data-chunk-id="70" data-id="371">veld </tspan><tspan x="234" y="301" data-chunk-id="71" data-id="376">, </tspan><tspan x="242" y="301" data-chunk-id="72" data-id="378">met </tspan><tspan x="268" y="301" data-chunk-id="73" data-id="382">een </tspan><tspan x="293" y="301" data-chunk-id="74" data-id="386">goeie </tspan><tspan x="329.5" y="301" data-chunk-id="75" data-id="392">mentaliteit </tspan><tspan x="397" y="301" data-chunk-id="76" data-id="404">. </tspan></text><text x="0" y="0"><tspan x="24" y="319" data-chunk-id="77" data-id="406">" \n\n</tspan></text><text x="0" y="0"><tspan x="24.5" y="385" data-chunk-id="78" data-id="410">Klein </tspan><tspan x="72.5" y="385" data-chunk-id="79" data-id="416">barstje </tspan><tspan x="115.5" y="385" data-chunk-id="80" data-id="424">in </tspan><tspan x="129.5" y="385" data-chunk-id="81" data-id="427">de </tspan><tspan x="147.5" y="385" data-chunk-id="82" data-id="430">feestvreugde </tspan><tspan x="226.5" y="385" data-chunk-id="83" data-id="443">was </tspan><tspan x="253.5" y="385" data-chunk-id="84" data-id="447">misschien </tspan><tspan x="316.5" y="385" data-chunk-id="85" data-id="457">de </tspan><tspan x="334.5" y="385" data-chunk-id="86" data-id="460">nukkige </tspan><tspan x="383.5" y="385" data-chunk-id="87" data-id="468">reactie </tspan><tspan x="426.5" y="385" data-chunk-id="88" data-id="476">van </tspan><tspan x="451.5" y="385" data-chunk-id="89" data-id="480">Milan </tspan><tspan x="486.5" y="385" data-chunk-id="90" data-id="486">Jovanovic </tspan><tspan x="549.5" y="385" data-chunk-id="91" data-id="496">bij </tspan><tspan x="571" y="385" data-chunk-id="92" data-id="500">zijn </tspan><tspan x="600.5" y="385" data-chunk-id="93" data-id="505">vervanging </tspan><tspan x="667.5" y="385" data-chunk-id="94" data-id="516">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="433" data-chunk-id="95" data-id="519">" </tspan><tspan x="33" y="433" data-chunk-id="96" data-id="521">Om </tspan><tspan x="58" y="433" data-chunk-id="97" data-id="524">eerlijk </tspan><tspan x="96" y="433" data-chunk-id="98" data-id="532">te </tspan><tspan x="111" y="433" data-chunk-id="99" data-id="535">zijn </tspan><tspan x="135" y="433" data-chunk-id="100" data-id="540">: </tspan><tspan x="143" y="433" data-chunk-id="101" data-id="542">ik </tspan><tspan x="157" y="433" data-chunk-id="102" data-id="545">denk </tspan><tspan x="189" y="433" data-chunk-id="103" data-id="550">dat </tspan><tspan x="211" y="433" data-chunk-id="104" data-id="554">zijn </tspan><tspan x="235" y="433" data-chunk-id="105" data-id="559">rol </tspan><tspan x="253" y="433" data-chunk-id="106" data-id="563">al </tspan><tspan x="267" y="433" data-chunk-id="107" data-id="566">enkele </tspan><tspan x="309" y="433" data-chunk-id="108" data-id="573">weken </tspan><tspan x="350" y="433" data-chunk-id="109" data-id="579">is </tspan><tspan x="364" y="433" data-chunk-id="110" data-id="582">uitgespeeld </tspan><tspan x="434" y="433" data-chunk-id="111" data-id="594">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="451" data-chunk-id="112" data-id="597">We </tspan><tspan x="47" y="451" data-chunk-id="113" data-id="600">zien </tspan><tspan x="75" y="451" data-chunk-id="114" data-id="605">nog </tspan><tspan x="100" y="451" data-chunk-id="115" data-id="609">maar </tspan><tspan x="133" y="451" data-chunk-id="116" data-id="614">weinig </tspan><tspan x="173" y="451" data-chunk-id="117" data-id="621">de </tspan><tspan x="191" y="451" data-chunk-id="118" data-id="624">Milan </tspan><tspan x="226" y="451" data-chunk-id="119" data-id="630">Jovanovic </tspan><tspan x="289" y="451" data-chunk-id="120" data-id="640">die </tspan><tspan x="310" y="451" data-chunk-id="121" data-id="644">je </tspan><tspan x="324" y="451" data-chunk-id="122" data-id="647">kan </tspan><tspan x="349" y="451" data-chunk-id="123" data-id="651">en </tspan><tspan x="367" y="451" data-chunk-id="124" data-id="654">moet </tspan><tspan x="400" y="451" data-chunk-id="125" data-id="659">verwachten </tspan><tspan x="470" y="451" data-chunk-id="126" data-id="670">. </tspan></text><text x="0" y="0"><tspan x="24" y="469" data-chunk-id="127" data-id="672">" \n\n</tspan></text><text x="0" y="0"><tspan x="24" y="505" data-chunk-id="128" data-id="676">" </tspan><tspan x="33" y="505" data-chunk-id="129" data-id="678">Hij </tspan><tspan x="52" y="505" data-chunk-id="130" data-id="682">is </tspan><tspan x="66" y="505" data-chunk-id="131" data-id="685">nog </tspan><tspan x="91" y="505" data-chunk-id="132" data-id="689">maar </tspan><tspan x="124" y="505" data-chunk-id="133" data-id="694">weinig </tspan><tspan x="164" y="505" data-chunk-id="134" data-id="701">beslissend </tspan><tspan x="230" y="505" data-chunk-id="135" data-id="712">, </tspan><tspan x="238" y="505" data-chunk-id="136" data-id="714">is </tspan><tspan x="252" y="505" data-chunk-id="137" data-id="717">heel </tspan><tspan x="280" y="505" data-chunk-id="138" data-id="722">irriterend </tspan><tspan x="334" y="505" data-chunk-id="139" data-id="733">op </tspan><tspan x="352" y="505" data-chunk-id="140" data-id="736">het </tspan><tspan x="374" y="505" data-chunk-id="141" data-id="740">veld </tspan><tspan x="402" y="505" data-chunk-id="142" data-id="745">, </tspan><tspan x="410" y="505" data-chunk-id="143" data-id="747">altijd </tspan><tspan x="441" y="505" data-chunk-id="144" data-id="754">reclamerend </tspan><tspan x="516" y="505" data-chunk-id="145" data-id="766">, </tspan><tspan x="524" y="505" data-chunk-id="146" data-id="768">en </tspan><tspan x="542" y="505" data-chunk-id="147" data-id="771">als </tspan><tspan x="563" y="505" data-chunk-id="148" data-id="775">hij </tspan><tspan x="580" y="505" data-chunk-id="149" data-id="779">de </tspan><tspan x="598" y="505" data-chunk-id="150" data-id="782">bal </tspan><tspan x="619" y="505" data-chunk-id="151" data-id="786">kwijtspeelt </tspan><tspan x="684" y="505" data-chunk-id="152" data-id="798">, </tspan><tspan x="692" y="505" data-chunk-id="153" data-id="800">wil </tspan><tspan x="711" y="505" data-chunk-id="154" data-id="804">hij </tspan><tspan x="728" y="505" data-chunk-id="155" data-id="808">altijd </tspan><tspan x="759" y="505" data-chunk-id="156" data-id="815">een </tspan><tspan x="784" y="505" data-chunk-id="157" data-id="819">fout </tspan><tspan x="810" y="505" data-chunk-id="158" data-id="824">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="523" data-chunk-id="159" data-id="827">Nee </tspan><tspan x="51" y="523" data-chunk-id="160" data-id="831">, </tspan><tspan x="59" y="523" data-chunk-id="161" data-id="833">dit </tspan><tspan x="77" y="523" data-chunk-id="162" data-id="837">is </tspan><tspan x="91" y="523" data-chunk-id="163" data-id="840">niet </tspan><tspan x="116" y="523" data-chunk-id="164" data-id="845">meer </tspan><tspan x="149" y="523" data-chunk-id="165" data-id="850">de </tspan><tspan x="167" y="523" data-chunk-id="166" data-id="853">Jovanovic </tspan><tspan x="230" y="523" data-chunk-id="167" data-id="863">zoals </tspan><tspan x="265" y="523" data-chunk-id="168" data-id="869">we </tspan><tspan x="285" y="523" data-chunk-id="169" data-id="872">hem </tspan><tspan x="314" y="523" data-chunk-id="170" data-id="876">kennen </tspan><tspan x="360" y="523" data-chunk-id="171" data-id="883">. \n</tspan></text><text x="0" y="0"><tspan x="24" y="541" data-chunk-id="172" data-id="886">Op </tspan><tspan x="45" y="541" data-chunk-id="173" data-id="889">deze </tspan><tspan x="77" y="541" data-chunk-id="174" data-id="894">manier </tspan><tspan x="120" y="541" data-chunk-id="175" data-id="901">denk </tspan><tspan x="152" y="541" data-chunk-id="176" data-id="906">ik </tspan><tspan x="166" y="541" data-chunk-id="177" data-id="909">dat </tspan><tspan x="188" y="541" data-chunk-id="178" data-id="913">zijn </tspan><tspan x="212" y="541" data-chunk-id="179" data-id="918">rol </tspan><tspan x="230" y="541" data-chunk-id="180" data-id="922">bij </tspan><tspan x="247" y="541" data-chunk-id="181" data-id="926">Anderlecht </tspan><tspan x="313" y="541" data-chunk-id="182" data-id="937">stilaan </tspan><tspan x="355" y="541" data-chunk-id="183" data-id="945">is </tspan><tspan x="369" y="541" data-chunk-id="184" data-id="948">uitgespeeld </tspan><tspan x="439" y="541" data-chunk-id="185" data-id="960">. </tspan></text><text x="0" y="0"><tspan x="24" y="559" data-chunk-id="186" data-id="962">"</tspan></text></g><g transform="translate(0, 57)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(39, 0)"><g/><g class="span"><rect x="4.5" y="-28.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T1" data-fragment-id="0"/><text x="14.5" y="-19" fill="black">Ent</text><path d="M0,-11.5C0,-15.5 14.5,-11.5 14.5,-15.5C14.5,-11.5 28,-15.5 28,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(75.5, 0)"><g/></g><g transform="translate(102.5, 0)"><g/><g class="span"><rect x="-0.5" y="-28.5" width="65" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T2" data-fragment-id="0" stroke-dasharray=","/><text x="31.5" y="-19" fill="black">PolarExpr <tspan class="glyph">1</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 31.5,-11.5 31.5,-15.5C31.5,-11.5 62,-15.5 62,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(171, 0)"><g/></g><g transform="translate(179, 0)"><g/></g><g transform="translate(205, 0)"><g/></g><g transform="translate(236, 0)"><g/></g><g transform="translate(260, 0)"><g/></g><g transform="translate(275, 0)"><g/></g><g transform="translate(293, 0)"><g/></g><g transform="translate(336, 0)"><g/></g><g transform="translate(377, 0)"><g/></g><g transform="translate(427, 0)"><g/></g><g transform="translate(441, 0)"><g/></g><g transform="translate(449, 0)"><g/></g><g transform="translate(471, 0)"><g/></g><g transform="translate(511, 0)"><g/></g><g transform="translate(534, 0)"><g/></g><g transform="translate(567, 0)"><g/></g><g transform="translate(606, 0)"><g/></g><g transform="translate(615, 0)"><g/></g><g transform="translate(623, 0)"><g/></g><g transform="translate(663, 0)"><g/></g><g transform="translate(701, 0)"><g/></g><g transform="translate(709, 0)"><g/></g><g transform="translate(735, 0)"><g/></g><g transform="translate(743, 0)"><g/></g><g transform="translate(768, 0)"><g/><g class="span"><rect x="65.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T16" data-fragment-id="1"/><text x="81.5" y="-19" fill="black">Entity</text><path d="M58,-11.5C58,-15.5 81.5,-11.5 81.5,-15.5C81.5,-11.5 104,-15.5 104,-11.5" class="curly" stroke="#148414"/></g><g class="span"><rect x="10.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T16" data-fragment-id="0"/><text x="26.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 26.5,-11.5 26.5,-15.5C26.5,-11.5 53,-15.5 53,-11.5" class="curly" stroke="#148414"/></g></g><g class="arcs"><g data-from="T2" data-to="T1"><text x="82.75" y="-25.5" fill="green" data-arc-role="has_low_pos_target" data-arc-origin="T2" data-arc-target="T1" data-arc-ed="R1">tgt +</text><path d="M70.75,-28.5L69.75,-28.5Q66.625,-28.5 63.5,-27.5" marker-end="url(#arrow_triangle_5_green)" style="stroke: green" stroke-dasharray=","/><path d="M94.75,-28.5L95.75,-28.5Q98.875,-28.5 102,-22.5" style="stroke: green" stroke-dasharray=","/></g><g data-from="T4" data-to="T1"><text x="735.25" y="-36.5" fill="#ab6b5e" data-arc-role="has_cause" data-arc-origin="T4" data-arc-target="T1" data-arc-ed="R4">has cause</text><path d="M712.75,-39.5L78.5,-39.5Q71,-39.5 63.5,-27.5" marker-end="url(#arrow_triangle_5_ab6b5e)" style="stroke: #ab6b5e" stroke-dasharray=","/><path d="M757.75,-39.5L1407,-39.5" style="stroke: #ab6b5e" stroke-dasharray=","/></g><path d="M810.5,-16.5L833.5,-16.5" style="stroke: #000000" stroke-dasharray="1,3,3,3"/></g></g><g transform="translate(0, 116)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(42, 0)"><g/><g class="span"><rect x="4.5" y="-28.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T3" data-fragment-id="0"/><text x="14.5" y="-19" fill="black">Ent</text><path d="M0,-11.5C0,-15.5 14.5,-11.5 14.5,-15.5C14.5,-11.5 28,-15.5 28,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(81, 0)"><g/></g><g transform="translate(140.5, 0)"><g/><g class="span"><rect x="-16.5" y="-28.5" width="87" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T4" data-fragment-id="0" stroke-dasharray=","/><text x="26.5" y="-19" fill="black">PolarExpr <tspan class="glyph">causal</tspan><tspan class="glyph">.</tspan></text><path d="M0,-11.5C0,-15.5 26.5,-11.5 26.5,-15.5C26.5,-11.5 52,-15.5 52,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(215, 0)"><g/></g><g transform="translate(236, 0)"><g/></g><g transform="translate(258, 0)"><g/><g class="span"><rect x="2.5" y="-28.5" width="59" height="12" class="span_SourceExpr span_default" fill="#7fa2ff" stroke="#002998" rx="2" ry="1" data-span-id="T5" data-fragment-id="0"/><text x="31.5" y="-19" fill="black">SourceExpr</text><path d="M0,-11.5C0,-15.5 31.5,-11.5 31.5,-15.5C31.5,-11.5 63,-15.5 63,-11.5" class="curly" stroke="#002998"/></g></g><g transform="translate(325, 0)"><g/></g><g transform="translate(371, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="55" height="12" class="span_CauseExpr span_default" fill="#ab6b5e" stroke="#452924" rx="2" ry="1" data-span-id="T6" data-fragment-id="0"/><text x="27.5" y="-19" fill="black">CauseExpr</text><path d="M0,-11.5C0,-15.5 27.5,-11.5 27.5,-15.5C27.5,-11.5 55,-15.5 55,-11.5" class="curly" stroke="#452924"/></g></g><g transform="translate(465, 0)"><g/><g class="span"><rect x="2.5" y="-28.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T7" data-fragment-id="0"/><text x="12.5" y="-19" fill="black">Ent</text><path d="M0,-11.5C0,-15.5 12.5,-11.5 12.5,-15.5C12.5,-11.5 25,-15.5 25,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(494, 0)"><g/></g><g transform="translate(512, 0)"><g/></g><g transform="translate(555, 0)"><g/></g><g transform="translate(580, 0)"><g/></g><g transform="translate(649, 0)"><g/></g><g class="arcs"><g data-from="T6" data-to="T7"><text x="447" y="-25.5" fill="#ab6b5e" data-arc-role="has_effect" data-arc-origin="T6" data-arc-target="T7" data-arc-ed="R5">effect</text><path d="M433.5,-28.5L432.5,-28.5Q429.5,-28.5 426.5,-22.5" style="stroke: #ab6b5e" stroke-dasharray=","/><path d="M460.5,-28.5L461.5,-28.5Q464.5,-28.5 467.5,-27.5" marker-end="url(#arrow_triangle_5_ab6b5e)" style="stroke: #ab6b5e" stroke-dasharray=","/></g><g data-from="T4" data-to="T3"><text x="95.25" y="-25.5" fill="red" data-arc-role="has_medium_neg_target" data-arc-origin="T4" data-arc-target="T3" data-arc-ed="R2">target: --</text><path d="M74.25,-28.5L73.25,-28.5Q69.875,-28.5 66.5,-27.5" marker-end="url(#arrow_triangle_5_red)" style="stroke: red" stroke-dasharray=","/><path d="M116.25,-28.5L117.25,-28.5Q120.625,-28.5 124,-22.5" style="stroke: red" stroke-dasharray=","/></g><g data-from="T4" data-to="T5"><text x="235.75" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T4" data-arc-target="T5" data-arc-ed="R3">has SE</text><path d="M220.75,-28.5L219.75,-28.5Q215.375,-28.5 211,-22.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M250.75,-28.5L251.75,-28.5Q256.125,-28.5 260.5,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T5" data-to="T7"><text x="393.5" y="-36.5" fill="#3960cd" data-arc-role="has_source" data-arc-origin="T5" data-arc-target="T7" data-arc-ed="R6">has source</text><path d="M369,-39.5L334.5,-39.5Q327,-39.5 319.5,-22.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M418,-39.5L452.5,-39.5Q460,-39.5 467.5,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T4" data-to="T1"><text x="72" y="-36.5" fill="#ab6b5e" data-arc-role="has_cause" data-arc-origin="T4" data-arc-target="T1" data-arc-ed="R4">has cause</text><path d="M49.5,-39.5L20,-39.5" marker-end="url(#arrow_triangle_5_ab6b5e)" style="stroke: #ab6b5e" stroke-dasharray=","/><path d="M94.5,-39.5L109,-39.5Q116.5,-39.5 124,-22.5" style="stroke: #ab6b5e" stroke-dasharray=","/></g></g></g><g transform="translate(0, 134)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 152)"><g/><g class="arcs"/></g><g transform="translate(0, 170)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 238)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(33, 0)"><g/></g><g transform="translate(57, 0)"><g/></g><g transform="translate(84, 0)"><g/></g><g transform="translate(109, 0)"><g/><g class="span"><rect x="10.5" y="-28.5" width="36" height="12" class="span_Target span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="E1" data-fragment-id="0"/><text x="28.5" y="-19" fill="black">Target</text><path d="M0,-11.5C0,-15.5 28.5,-11.5 28.5,-15.5C28.5,-11.5 56,-15.5 56,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(169, 0)"><g/></g><g transform="translate(201, 0)"><g/></g><g transform="translate(209, 0)"><g/></g><g transform="translate(234, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="10" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T9" data-fragment-id="0"/><text x="5.5" y="-19" fill="black">E</text><path d="M0,-11.5C0,-15.5 5.5,-11.5 5.5,-15.5C5.5,-11.5 10,-15.5 10,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(280, 0)"><g/><g class="span"><rect x="2.5" y="-28.5" width="30" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T10" data-fragment-id="0" stroke-dasharray=","/><text x="17.5" y="-19" fill="black">PE <tspan class="glyph">1</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 17.5,-11.5 17.5,-15.5C17.5,-11.5 35,-15.5 35,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(319, 0)"><g/></g><g transform="translate(385, 0)"><g/></g><g transform="translate(410, 0)"><g/></g><g transform="translate(442.5, 0)"><g/><g class="span"><rect x="-7.5" y="-28.5" width="36" height="12" class="span_Target span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="E2" data-fragment-id="0"/><text x="10.5" y="-19" fill="black">Target</text><path d="M0,-11.5C0,-15.5 10.5,-11.5 10.5,-15.5C10.5,-11.5 20,-15.5 20,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(475, 0)"><g/></g><g transform="translate(511, 0)"><g/><g class="span"><rect x="3.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T18" data-fragment-id="0"/><text x="19.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 19.5,-11.5 19.5,-15.5C19.5,-11.5 39,-15.5 39,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(557, 0)"><g/></g><g class="arcs"><g data-from="T10" data-to="T9"><text x="263.5" y="-25.5" fill="green" data-arc-role="has_low_pos_target" data-arc-origin="T10" data-arc-target="T9" data-arc-ed="R7">tgt +</text><path d="M251.5,-28.5L250.5,-28.5Q247.5,-28.5 244.5,-27.5" marker-end="url(#arrow_triangle_5_green)" style="stroke: green" stroke-dasharray=","/><path d="M275.5,-28.5L276.5,-28.5Q279.5,-28.5 282.5,-22.5" style="stroke: green" stroke-dasharray=","/></g><g data-from="E1" data-to="T9"><text x="195" y="-25.5" fill="black" data-arc-role="Target2" data-arc-origin="E1" data-arc-target="T9"><tspan fill="black" data-arc-role="Target2" data-arc-origin="E1" data-arc-target="T9">Target</tspan><tspan dy="0.3em" font-size="80%" fill="black" data-arc-role="Target2" data-arc-origin="E1" data-arc-target="T9">2</tspan></text><path d="M180,-28.5L170.5,-28.5Q163,-28.5 155.5,-22.5" style="stroke: black" stroke-dasharray=","/><path d="M210,-28.5L219.5,-28.5Q227,-28.5 234.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/></g><g data-from="E2" data-to="T10"><text x="373.75" y="-25.5" fill="black" data-arc-role="Expression" data-arc-origin="E2" data-arc-target="T10">Expression</text><path d="M349.25,-28.5L327.5,-28.5Q320,-28.5 312.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/><path d="M398.25,-28.5L420,-28.5Q427.5,-28.5 435,-22.5" style="stroke: black" stroke-dasharray=","/></g><g data-from="E1" data-to="T10"><text x="219" y="-36.5" fill="black" data-arc-role="Expression2" data-arc-origin="E1" data-arc-target="T10"><tspan fill="black" data-arc-role="Expression2" data-arc-origin="E1" data-arc-target="T10">Expression</tspan><tspan dy="0.3em" font-size="80%" fill="black" data-arc-role="Expression2" data-arc-origin="E1" data-arc-target="T10">2</tspan></text><path d="M194.5,-39.5L170.5,-39.5Q163,-39.5 155.5,-22.5" style="stroke: black" stroke-dasharray=","/><path d="M243.5,-39.5L267.5,-39.5Q275,-39.5 282.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/></g><g data-from="E2" data-to="T9"><text x="339.75" y="-45.5" fill="black" data-arc-role="Target" data-arc-origin="E2" data-arc-target="T9">Target</text><path d="M324.75,-48.5L259.5,-48.5Q252,-48.5 244.5,-27.5" marker-end="url(#arrow_triangle_5_black)" style="stroke: black" stroke-dasharray=","/><path d="M354.75,-48.5L420,-48.5Q427.5,-48.5 435,-22.5" style="stroke: black" stroke-dasharray=","/></g><path d="M546.5,-16.5L1407,-16.5" style="stroke: #000000" stroke-dasharray="1,3,3,3"/></g></g><g transform="translate(0, 301)"><g/><g transform="translate(24, 0)"><g/><g class="span"><rect x="4.5" y="-45.5" width="20" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T19" data-fragment-id="0"/><text x="14.5" y="-36" fill="black">Ent</text><path d="M0,-28.5C0,-32.5 14.5,-28.5 14.5,-32.5C14.5,-28.5 29,-32.5 29,-28.5" class="curly" stroke="#148414"/></g></g><g transform="translate(57, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="10" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T18" data-fragment-id="1"/><text x="5.5" y="-19" fill="black">E</text><path d="M0,-11.5C0,-15.5 5.5,-11.5 5.5,-15.5C5.5,-11.5 11,-15.5 11,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(72, 0)"><g/></g><g transform="translate(105, 0)"><g/></g><g transform="translate(130, 0)"><g/></g><g transform="translate(166, 0)"><g/><g class="span"><rect x="0.5" y="-28.5" width="13" height="12" class="span_Modifier span_default" fill="yellow" stroke="#656600" rx="2" ry="1" data-span-id="T24" data-fragment-id="0"/><text x="7.5" y="-19" fill="black">M</text><path d="M0,-11.5C0,-15.5 7.5,-11.5 7.5,-15.5C7.5,-11.5 14,-15.5 14,-11.5" class="curly" stroke="#656600"/></g></g><g transform="translate(184, 0)"><g/></g><g transform="translate(206, 0)"><g/></g><g transform="translate(234, 0)"><g/></g><g transform="translate(242, 0)"><g/></g><g transform="translate(268, 0)"><g/></g><g transform="translate(293, 0)"><g/></g><g transform="translate(329.5, 0)"><g/><g class="span"><rect x="-1.5" y="-28.5" width="65" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T21" data-fragment-id="0" stroke-dasharray=","/><text x="30.5" y="-19" fill="black">PolarExpr <tspan class="glyph">2</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 30.5,-11.5 30.5,-15.5C30.5,-11.5 60,-15.5 60,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(397, 0)"><g/></g><g class="arcs"><g data-from="T21" data-to="T18"><text x="197.75" y="-36.5" fill="red" data-arc-role="has_low_neg_target" data-arc-origin="T21" data-arc-target="T18" data-arc-ed="R16">has low negative target</text><path d="M143.25,-39.5L82.5,-39.5Q75,-39.5 67.5,-27.5" marker-end="url(#arrow_triangle_5_red)" style="stroke: red" stroke-dasharray=","/><path d="M252.25,-39.5L313,-39.5Q320.5,-39.5 328,-22.5" style="stroke: red" stroke-dasharray=","/></g><path d="M20,-16.5L57.5,-16.5" style="stroke: #000000" stroke-dasharray="1,3,3,3"/></g></g><g transform="translate(0, 319)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 337)"><g/><g class="arcs"/></g><g transform="translate(0, 385)"><g/><g transform="translate(24.5, 0)"><g/><g class="span"><rect x="-0.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T15" data-fragment-id="0"/><text x="14.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 14.5,-11.5 14.5,-15.5C14.5,-11.5 29,-15.5 29,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(72.5, 0)"><g/><g class="span"><rect x="11.5" y="-28.5" width="16" height="12" class="span_SourceExpr span_default" fill="#7fa2ff" stroke="#002998" rx="2" ry="1" data-span-id="T12" data-fragment-id="0"/><text x="19.5" y="-19" fill="black">SE</text><path d="M0,-11.5C0,-15.5 19.5,-11.5 19.5,-15.5C19.5,-11.5 39,-15.5 39,-11.5" class="curly" stroke="#002998"/></g></g><g transform="translate(115.5, 0)"><g/></g><g transform="translate(129.5, 0)"><g/></g><g transform="translate(147.5, 0)"><g/><g class="span"><rect x="6.5" y="-28.5" width="62" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T13" data-fragment-id="0" stroke-dasharray=","/><text x="37.5" y="-19" fill="black">PolarExpr <tspan class="glyph">3</tspan><tspan class="glyph">.</tspan></text><path d="M0,-11.5C0,-15.5 37.5,-11.5 37.5,-15.5C37.5,-11.5 75,-15.5 75,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(226.5, 0)"><g/></g><g transform="translate(253.5, 0)"><g/><g class="span"><rect x="13.5" y="-28.5" width="32" height="12" class="span_Entity span_default" fill="lightgreen" stroke="#148414" rx="2" ry="1" data-span-id="T14" data-fragment-id="0"/><text x="29.5" y="-19" fill="black">Entity</text><path d="M0,-11.5C0,-15.5 29.5,-11.5 29.5,-15.5C29.5,-11.5 59,-15.5 59,-11.5" class="curly" stroke="#148414"/></g></g><g transform="translate(316.5, 0)"><g/></g><g transform="translate(334.5, 0)"><g/></g><g transform="translate(383.5, 0)"><g/></g><g transform="translate(426.5, 0)"><g/></g><g transform="translate(451.5, 0)"><g/></g><g transform="translate(486.5, 0)"><g/></g><g transform="translate(549.5, 0)"><g/></g><g transform="translate(571, 0)"><g/><g class="span"><rect x="-4.5" y="-28.5" width="30" height="12" class="span_PolarExpr span_default" fill="#ff4d4d" stroke="#840000" rx="2" ry="1" data-span-id="T23" data-fragment-id="0" stroke-dasharray="2,2"/><text x="10.5" y="-19" fill="black">PE <tspan class="glyph">2</tspan><tspan class="glyph">?</tspan></text><path d="M0,-11.5C0,-15.5 10.5,-11.5 10.5,-15.5C10.5,-11.5 20,-15.5 20,-11.5" class="curly" stroke="#840000"/></g></g><g transform="translate(600.5, 0)"><g/></g><g transform="translate(667.5, 0)"><g/></g><g class="arcs"><g data-from="T12" data-to="T15"><text x="70" y="-25.5" fill="#3960cd" data-arc-role="has_source" data-arc-origin="T12" data-arc-target="T15" data-arc-ed="R10">src</text><path d="M63,-28.5L62,-28.5Q59,-28.5 56,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/><path d="M77,-28.5L78,-28.5Q81,-28.5 84,-22.5" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T13" data-to="T14"><text x="241.5" y="-25.5" fill="green" data-arc-role="has_low_pos_target" data-arc-origin="T13" data-arc-target="T14" data-arc-ed="R8">tgt +</text><path d="M229.5,-28.5L228.5,-28.5Q222.25,-28.5 216,-22.5" style="stroke: green" stroke-dasharray=","/><path d="M253.5,-28.5L254.5,-28.5Q260.75,-28.5 267,-27.5" marker-end="url(#arrow_triangle_5_green)" style="stroke: green" stroke-dasharray=","/></g><g data-from="T13" data-to="T12"><text x="127" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T13" data-arc-target="T12" data-arc-ed="R9">has SE</text><path d="M112,-28.5L111,-28.5Q105.5,-28.5 100,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/><path d="M142,-28.5L143,-28.5Q148.5,-28.5 154,-22.5" style="stroke: #3960cd" stroke-dasharray=","/></g><g data-from="T23" data-to="T22"><text x="1001.75" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T23" data-arc-target="T22" data-arc-ed="R15">has source expression</text><path d="M952.25,-28.5L611.5,-28.5Q604,-28.5 596.5,-22.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M1051.25,-28.5L1407,-28.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g></g></g><g transform="translate(0, 433)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(33, 0)"><g/></g><g transform="translate(58, 0)"><g/></g><g transform="translate(96, 0)"><g/></g><g transform="translate(111, 0)"><g/></g><g transform="translate(135, 0)"><g/></g><g transform="translate(143, 0)"><g/></g><g transform="translate(157, 0)"><g/></g><g transform="translate(189, 0)"><g/></g><g transform="translate(211, 0)"><g/></g><g transform="translate(235, 0)"><g/></g><g transform="translate(253, 0)"><g/></g><g transform="translate(267, 0)"><g/></g><g transform="translate(309, 0)"><g/><g class="span"><rect x="10.5" y="-28.5" width="16" height="12" class="span_SourceExpr span_default" fill="#7fa2ff" stroke="#002998" rx="2" ry="1" data-span-id="T22" data-fragment-id="0"/><text x="18.5" y="-19" fill="black">SE</text><path d="M0,-11.5C0,-15.5 18.5,-11.5 18.5,-15.5C18.5,-11.5 37,-15.5 37,-11.5" class="curly" stroke="#002998"/></g></g><g transform="translate(350, 0)"><g/></g><g transform="translate(364, 0)"><g/></g><g transform="translate(434, 0)"><g/></g><g class="arcs"><g data-from="T23" data-to="T22"><text x="169.75" y="-25.5" fill="#3960cd" data-arc-role="has_source_expr" data-arc-origin="T23" data-arc-target="T22" data-arc-ed="R15">has source expression</text><path d="M120.25,-28.5L20,-28.5" style="stroke: #3960cd" stroke-dasharray=","/><path d="M219.25,-28.5L304.5,-28.5Q312,-28.5 319.5,-27.5" marker-end="url(#arrow_triangle_5_3960cd)" style="stroke: #3960cd" stroke-dasharray=","/></g></g></g><g transform="translate(0, 451)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(47, 0)"><g/></g><g transform="translate(75, 0)"><g/></g><g transform="translate(100, 0)"><g/></g><g transform="translate(133, 0)"><g/></g><g transform="translate(173, 0)"><g/></g><g transform="translate(191, 0)"><g/></g><g transform="translate(226, 0)"><g/></g><g transform="translate(289, 0)"><g/></g><g transform="translate(310, 0)"><g/></g><g transform="translate(324, 0)"><g/></g><g transform="translate(349, 0)"><g/></g><g transform="translate(367, 0)"><g/></g><g transform="translate(400, 0)"><g/></g><g transform="translate(470, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 469)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 487)"><g/><g class="arcs"/></g><g transform="translate(0, 505)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(33, 0)"><g/></g><g transform="translate(52, 0)"><g/></g><g transform="translate(66, 0)"><g/></g><g transform="translate(91, 0)"><g/></g><g transform="translate(124, 0)"><g/></g><g transform="translate(164, 0)"><g/></g><g transform="translate(230, 0)"><g/></g><g transform="translate(238, 0)"><g/></g><g transform="translate(252, 0)"><g/></g><g transform="translate(280, 0)"><g/></g><g transform="translate(334, 0)"><g/></g><g transform="translate(352, 0)"><g/></g><g transform="translate(374, 0)"><g/></g><g transform="translate(402, 0)"><g/></g><g transform="translate(410, 0)"><g/></g><g transform="translate(441, 0)"><g/></g><g transform="translate(516, 0)"><g/></g><g transform="translate(524, 0)"><g/></g><g transform="translate(542, 0)"><g/></g><g transform="translate(563, 0)"><g/></g><g transform="translate(580, 0)"><g/></g><g transform="translate(598, 0)"><g/></g><g transform="translate(619, 0)"><g/></g><g transform="translate(684, 0)"><g/></g><g transform="translate(692, 0)"><g/></g><g transform="translate(711, 0)"><g/></g><g transform="translate(728, 0)"><g/></g><g transform="translate(759, 0)"><g/></g><g transform="translate(784, 0)"><g/></g><g transform="translate(810, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 523)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(51, 0)"><g/></g><g transform="translate(59, 0)"><g/></g><g transform="translate(77, 0)"><g/></g><g transform="translate(91, 0)"><g/></g><g transform="translate(116, 0)"><g/></g><g transform="translate(149, 0)"><g/></g><g transform="translate(167, 0)"><g/></g><g transform="translate(230, 0)"><g/></g><g transform="translate(265, 0)"><g/></g><g transform="translate(285, 0)"><g/></g><g transform="translate(314, 0)"><g/></g><g transform="translate(360, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 541)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(45, 0)"><g/></g><g transform="translate(77, 0)"><g/></g><g transform="translate(120, 0)"><g/></g><g transform="translate(152, 0)"><g/></g><g transform="translate(166, 0)"><g/></g><g transform="translate(188, 0)"><g/></g><g transform="translate(212, 0)"><g/></g><g transform="translate(230, 0)"><g/></g><g transform="translate(247, 0)"><g/></g><g transform="translate(313, 0)"><g/></g><g transform="translate(355, 0)"><g/></g><g transform="translate(369, 0)"><g/></g><g transform="translate(439, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 559)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g class="sentnum"><a xlink:href="#/voorbeeld/sporza?focus=sent~1" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="57" data-sent="1">1</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~2" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="116" data-sent="2">2</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~3" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="134" data-sent="3">3</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~5" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="170" data-sent="5">5</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~6" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="238" data-sent="6">6</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~7" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="301" data-sent="7">7</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~8" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="319" data-sent="8">8</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~10" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="385" data-sent="10">10</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~11" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="433" data-sent="11">11</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~12" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="451" data-sent="12">12</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~13" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="469" data-sent="13">13</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~15" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="505" data-sent="15">15</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~16" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="523" data-sent="16">16</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~17" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="541" data-sent="17">17</text></a><a xlink:href="#/voorbeeld/sporza?focus=sent~18" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="559" data-sent="18">18</text></a><path d="M20,0L20,563"/></g></svg>')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'sporza', u'/voorbeeld/', u'ann')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', u'0', None)
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372456520
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.2","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'stop')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'stop')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'1')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.2"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["1.1","1.3","1.4"]', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'5')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/"
+MESSAGE:debug: No rules defined
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+MESSAGE:warning: Could not write statistics cache file to directory /home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/: [Errno 13] Permission denied: u'/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/.stats_cache'
+INFO:root:dispatcher handling action: importDocument
+INFO:root:dispatcher will call importDocument(u'test', u'Dit is een test', u'test', u'/nieuw/')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["opm"]', None, None)
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["status"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'status', u'status')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372458007
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'status', u'status')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372458547
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372458655
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372459090
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+MESSAGE:error: 2
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372459306
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["2.2"]', u'0', u'2')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'7')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'11')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: storeSVG
+INFO:root:dispatcher will call storeSVG(u'/nieuw/', u'test', u'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 1409px; height: 38px;"><!-- document: /nieuw//test --><defs><filter id="Gaussian_Blur"><feGaussianBlur in="SourceGraphic" stdDeviation="2"/></filter><marker id="drag_arrow" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" class="drag_fill"><polyline points="0,0 5,2.5 0,5 0.2,2.5"/></marker></defs><g class="background"><rect x="0" y="4" width="1409" height="18" class="background0"/><rect x="0" y="22" width="1409" height="18" class="background1"/></g><g class="glow"/><g class="highlight"/><g class="text"><text x="0" y="0"><tspan x="24" y="16" data-chunk-id="0" data-id="0">test\n</tspan></text><text x="0" y="0"><tspan x="24" y="34" data-chunk-id="1" data-id="5">Dit </tspan><tspan x="44" y="34" data-chunk-id="2" data-id="9">is </tspan><tspan x="58" y="34" data-chunk-id="3" data-id="12">een </tspan><tspan x="83" y="34" data-chunk-id="4" data-id="16">test</tspan></text></g><g transform="translate(0, 16)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 34)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(44, 0)"><g/></g><g transform="translate(58, 0)"><g/></g><g transform="translate(83, 0)"><g/></g><g class="arcs"/></g><g class="sentnum"><a xlink:href="#/nieuw/test?focus=sent~1" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="16" data-sent="1">1</text></a><a xlink:href="#/nieuw/test?focus=sent~2" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="34" data-sent="2">2</text></a><path d="M20,0L20,38"/></g></svg>')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372459977
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+MESSAGE:error: [u'0.1']
+MESSAGE:error: [u'1.2']
+MESSAGE:error: [u'5.1']
+MESSAGE:error: ['']
+MESSAGE:error: [u'2.2']
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+MESSAGE:error: [u'0.1']
+MESSAGE:error: [u'1.2']
+MESSAGE:error: [u'5.1']
+MESSAGE:error: ['']
+MESSAGE:error: [u'2.2']
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+MESSAGE:error: [u'0.1']
+MESSAGE:error: [u'1.2']
+MESSAGE:error: [u'5.1']
+MESSAGE:error: ['']
+MESSAGE:error: [u'2.2']
+MESSAGE:error: [u'0.1']
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+MESSAGE:error: [u'0.1']
+MESSAGE:error: [u'1.2']
+MESSAGE:error: [u'5.1']
+MESSAGE:error: ['']
+MESSAGE:error: [u'2.2']
+MESSAGE:error: [u'1.2']
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+MESSAGE:error: [u'0.1']
+MESSAGE:error: [u'1.2']
+MESSAGE:error: [u'5.1']
+MESSAGE:error: ['']
+MESSAGE:error: [u'2.2']
+MESSAGE:error: [u'5.1']
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+MESSAGE:error: [u'0.1']
+MESSAGE:error: [u'1.2']
+MESSAGE:error: [u'5.1']
+MESSAGE:error: ['']
+MESSAGE:error: [u'2.2']
+MESSAGE:error: []
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0","0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1","0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2","1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1","5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0","0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1","0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2","1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1","5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: storeSVG
+INFO:root:dispatcher will call storeSVG(u'/nieuw/', u'test', u'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 1409px; height: 38px;" class=""><!-- document: /nieuw//test --><defs><filter id="Gaussian_Blur"><feGaussianBlur in="SourceGraphic" stdDeviation="2"/></filter><marker id="drag_arrow" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" class="drag_fill"><polyline points="0,0 5,2.5 0,5 0.2,2.5"/></marker></defs><g class="background"><rect x="0" y="4" width="1409" height="18" class="background0"/><rect x="0" y="22" width="1409" height="18" class="background1"/></g><g class="glow"/><g class="highlight"/><g class="text"><text x="0" y="0"><tspan x="24" y="16" data-chunk-id="0" data-id="0">test\n</tspan></text><text x="0" y="0"><tspan x="24" y="34" data-chunk-id="1" data-id="5">Dit </tspan><tspan x="44" y="34" data-chunk-id="2" data-id="9">is </tspan><tspan x="58" y="34" data-chunk-id="3" data-id="12">een </tspan><tspan x="83" y="34" data-chunk-id="4" data-id="16">test</tspan></text></g><g transform="translate(0, 16)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 34)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(44, 0)"><g/></g><g transform="translate(58, 0)"><g/></g><g transform="translate(83, 0)"><g/></g><g class="arcs"/></g><g class="sentnum"><a xlink:href="#/nieuw/test?focus=sent~1" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="16" data-sent="1">1</text></a><a xlink:href="#/nieuw/test?focus=sent~2" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="34" data-sent="2">2</text></a><path d="M20,0L20,38"/></g></svg>')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0","0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1","0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2","1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1","5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'5')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["status","status"]', None, None)
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372460598
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+MESSAGE:error: Unable to parse the following line(s):
+<br/>
+1:
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.3"]', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'stop')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1.2","5.1.3"]', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'2')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'11')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'5')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'1')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["1.2"]', u'0', u'1')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["5.1"]', u'0', u'5')
+INFO:root:dispatcher handling action: storeSVG
+INFO:root:dispatcher will call storeSVG(u'/nieuw/', u'test', u'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 1409px; height: 38px;" class=""><!-- document: /nieuw//test --><defs><filter id="Gaussian_Blur"><feGaussianBlur in="SourceGraphic" stdDeviation="2"/></filter><marker id="drag_arrow" refX="5" refY="2.5" markerWidth="5" markerHeight="5" orient="auto" markerUnits="strokeWidth" class="drag_fill"><polyline points="0,0 5,2.5 0,5 0.2,2.5"/></marker></defs><g class="background"><rect x="0" y="4" width="1409" height="18" class="background0"/><rect x="0" y="22" width="1409" height="18" class="background1"/></g><g class="glow"/><g class="highlight"/><g class="text"><text x="0" y="0"><tspan x="24" y="16" data-chunk-id="0" data-id="0">test\n</tspan></text><text x="0" y="0"><tspan x="24" y="34" data-chunk-id="1" data-id="5">Dit </tspan><tspan x="44" y="34" data-chunk-id="2" data-id="9">is </tspan><tspan x="58" y="34" data-chunk-id="3" data-id="12">een </tspan><tspan x="83" y="34" data-chunk-id="4" data-id="16">test</tspan></text></g><g transform="translate(0, 16)"><g/><g transform="translate(24, 0)"><g/></g><g class="arcs"/></g><g transform="translate(0, 34)"><g/><g transform="translate(24, 0)"><g/></g><g transform="translate(44, 0)"><g/></g><g transform="translate(58, 0)"><g/></g><g transform="translate(83, 0)"><g/></g><g class="arcs"/></g><g class="sentnum"><a xlink:href="#/nieuw/test?focus=sent~1" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="16" data-sent="1">1</text></a><a xlink:href="#/nieuw/test?focus=sent~2" xmlns="http://www.w3.org/1999/xlink"><text xmlns="http://www.w3.org/2000/svg" x="18" y="34" data-sent="2">2</text></a><path d="M20,0L20,38"/></g></svg>')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["opm"]', None, None)
+INFO:root:dispatcher handling action: inputText
+MESSAGE:error: Client did not supply argument "text" for action "inputText"
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'opm', u'opm')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["status"]', None, None)
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'status', u'status')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["status"]', None, None)
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["opm"]', None, None)
+INFO:root:dispatcher handling action: inputText
+INFO:root:dispatcher will call inputText(u'/nieuw/', u'test', u'7.0', u'test', u'opm', u'opm')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'opm', u'stop')
+INFO:root:dispatcher handling action: downloadFile
+INFO:root:dispatcher will call downloadFile(u'test', u'/nieuw/', u'ann')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/nieuw/"
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+MESSAGE:error: Unable to parse the following line(s):
+<br/>
+1:
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["opm"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'[]', u'opm', u'opm')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1372460893
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/nieuw/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/nieuw/', u'test')
+MESSAGE:error: Unable to parse the following line(s):
+<br/>
+1:
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["opm"]', None, None)
+INFO:root:dispatcher handling action: inputText
+INFO:root:dispatcher will call inputText(u'/nieuw/', u'test', u'7.0', u'ttttest', u'opm', u'opm')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/nieuw/', u'test')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.3"]', u'0', u'0')
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/nieuw/', u'test', u'0', u'stop')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/nieuw/', u'test', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/"
+MESSAGE:debug: No rules defined
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/brat_vb/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/brat_vb/"
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/', u'detijd_other_Bekaert_12-05-05')
+MESSAGE:error: Unable to parse the following line(s):
+<br/>
+717:
+<br/>
+719:
+<br/>
+721:
+<br/>
+723:
+<br/>
+725:
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/brat_vb/sentiment/')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164617
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+INFO:root:dispatcher handling action: login
+INFO:root:dispatcher will call login(u'sander', u'sander')
+MESSAGE:comment: Hello!
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":false}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+INFO:root:dispatcher handling action: createSpan
+INFO:root:dispatcher will call createSpan(u'/brat_vb/sentiment/', u'test', u'[[284,286]]', u'Entity', u'{"Implicit_source":false,"Author_is_source":false,"Impersonal_source":false,"Is_also_source_expression":false,"Is_also_opinionated_source_expression":false,"Is_insubstantial":false,"Is_also_opinionated":false}', u'[]', None, None)
+INFO:root:dispatcher handling action: createSpan
+INFO:root:dispatcher will call createSpan(u'/brat_vb/sentiment/', u'test', u'[[284,286]]', u'PolarExpr', u'{"Implicit_source":false,"Author_is_source":false,"Impersonal_source":false,"Is_also_source_expression":false,"Is_also_opinionated_source_expression":false,"Is_insubstantial":false,"Is_also_opinionated":false}', u'[]', u'T757', None)
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/brat_vb/sentiment/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":["PolarExpr","SourceExpr","CauseExpr","Modifier"],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/brat_vb/sentiment/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164728
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164737
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown textbound/event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown textbound/event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:debug: No rules defined
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164854
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'test')
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164861
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown textbound/event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown textbound/event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:debug: No rules defined
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164866
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown textbound/event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown textbound/event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:warning: Project configuration: unknown event type Target. Configuration may be wrong.
+MESSAGE:debug: No rules defined
+MESSAGE:error: The server encountered a serious error, please contact the administrators at sandernaert@gmail.com and give the id #1397164870
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/brat_vb/')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/examples/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/examples/"
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/voorbeeld/"
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":false}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/voorbeeld/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":["PolarExpr","SourceExpr","CauseExpr","Modifier"],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/voorbeeld/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/voorbeeld/')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/voorbeeld/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":["refers_to","has_medium_pos_target"],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/voorbeeld/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0.1"]', u'0', u'0')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["0"]', None, None)
+INFO:root:dispatcher handling action: previousList
+INFO:root:dispatcher will call previousList(u'/voorbeeld/', u'sporza', u'0', u'0')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["2"]', None, None)
+INFO:root:dispatcher handling action: inputText
+INFO:root:dispatcher will call inputText(u'/voorbeeld/', u'sporza', u'2.0', u'test', u'2', u'2')
+INFO:root:dispatcher handling action: getStartList
+INFO:root:dispatcher will call getStartList(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: selectList
+INFO:root:dispatcher will call selectList(u'/voorbeeld/', u'sporza', u'["2"]', None, None)
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":true,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":false,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: createSpan
+INFO:root:dispatcher will call createSpan(u'/voorbeeld/', u'sporza', u'[[630,639]]', u'PolarExpr', u'{"Implicit_source":false,"Author_is_source":false,"Impersonal_source":false,"Is_also_source_expression":false,"Is_also_opinionated_source_expression":false,"Is_insubstantial":false,"Is_also_opinionated":false}', u'[]', None, None)
+INFO:root:dispatcher handling action: deleteSpan
+INFO:root:dispatcher will call deleteSpan(u'/voorbeeld/', u'sporza', u'T19')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/voorbeeld/', u'sporza')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher handling action: loadConf
+INFO:root:dispatcher will call loadConf()
+INFO:root:dispatcher handling action: whoami
+INFO:root:dispatcher will call whoami()
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/voorbeeld/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/voorbeeld/"
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/brat_vb/')
+INFO:root:dispatcher handling action: getCollectionInformation
+INFO:root:dispatcher will call getCollectionInformation(u'/brat_vb/sentiment/')
+INFO:root:generating statistics for "/home/sander/Documents/Masterproef/brat/server/src/../../data/brat_vb/sentiment/"
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/brat_vb/sentiment/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":["PolarExpr","SourceExpr","CauseExpr","Modifier"],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
+INFO:root:dispatcher handling action: getAllTypes
+INFO:root:dispatcher will call getAllTypes(u'/brat_vb/sentiment/')
+INFO:root:dispatcher handling action: saveConf
+INFO:root:dispatcher will call saveConf(u'{"abbrevsOn":true,"textBackgrounds":"striped","visual":{"margin":{"x":2,"y":1},"arcTextMargin":1,"boxSpacing":1,"curlyHeight":4,"arcSpacing":9,"arcStartHeight":19},"svgWidth":"100%","rapidModeOn":false,"confirmModeOn":true,"autorefreshOn":false,"autoRedraw":true,"layers":[],"foliaLayers":[],"validationOn":true}')
+INFO:root:dispatcher handling action: getDocument
+INFO:root:dispatcher will call getDocument(u'/brat_vb/sentiment/', u'sporza')
